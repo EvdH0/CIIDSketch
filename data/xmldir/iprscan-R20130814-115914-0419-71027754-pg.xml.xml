@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_55_2" length="245" crc64="4ABC65D91EFF097C">
+	<interpro id="IPR001737" name="Ribosomal RNA adenine methylase transferase" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR011530"/>
+	    <rel_ref ipr_ref="IPR016586"/>
+	    <rel_ref ipr_ref="IPR016861"/>
+	  </child_list>
+	  <contains>
+	    <rel_ref ipr_ref="IPR020596"/>
+	    <rel_ref ipr_ref="IPR020598"/>
+	  </contains>
+	  <classification id="GO:0000154" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>rRNA modification</description>
+	  </classification>
+	  <classification id="GO:0008649" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>rRNA methyltransferase activity</description>
+	  </classification>
+	  <match id="PTHR11727" name="DIMETHYLADENOSINE TRANSFERASE" dbname="PANTHER">
+	    <location start="1" end="194" score="1.1e-25" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PF00398" name="RrnaAD" dbname="PFAM">
+	    <location start="2" end="242" score="1.8e-71" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR020596" name="Ribosomal RNA adenine methylase transferase, conserved site" type="Conserved_site">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR001737"/>
+	    <rel_ref ipr_ref="IPR011530"/>
+	    <rel_ref ipr_ref="IPR020598"/>
+	 </found_in>
+	  <classification id="GO:0000154" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>rRNA modification</description>
+	  </classification>
+	  <classification id="GO:0008649" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>rRNA methyltransferase activity</description>
+	  </classification>
+	  <match id="PS01131" name="RRNA_A_DIMETH" dbname="PROSITE">
+	    <location start="33" end="60" score="NA" status="T" evidence="PatternScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR020598" name="Ribosomal RNA adenine methylase transferase, N-terminal" type="Domain">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR001737"/>
+	    <rel_ref ipr_ref="IPR011530"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR020596"/>
+	  </contains>
+	  <classification id="GO:0000154" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>rRNA modification</description>
+	  </classification>
+	  <classification id="GO:0008649" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>rRNA methyltransferase activity</description>
+	  </classification>
+	  <match id="SM00650" name="Ribosomal RNA adenine dimethylases" dbname="SMART">
+	    <location start="17" end="179" score="7.4e-59" status="T" evidence="HMMSmart"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR023165" name="rRNA adenine dimethylase-like" type="Domain">
+	  <match id="G3DSA:1.10.8.100" name="no description" dbname="GENE3D">
+	    <location start="173" end="242" score="4.1e-44" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="G3DSA:3.40.50.150" name="no description" dbname="GENE3D">
+	    <location start="5" end="172" score="1.3e-42" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR11727:SF7" name="SUBFAMILY NOT NAMED" dbname="PANTHER">
+	    <location start="1" end="194" score="1.1e-25" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="SSF53335" name="S-adenosyl-L-methionine-dependent methyltransferases" dbname="SUPERFAMILY">
+	    <location start="1" end="238" score="4.8e-52" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

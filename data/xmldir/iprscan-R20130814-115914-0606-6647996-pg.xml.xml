@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="ERE24518_P3_G08_pZE21_81_104_57C_N15_copy_2" length="263" crc64="F724B37A3038082B">
+	<interpro id="IPR003439" name="ABC transporter-like" type="Domain" parent_id="IPR003593">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR015856"/>
+	    <rel_ref ipr_ref="IPR015860"/>
+	    <rel_ref ipr_ref="IPR017902"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000388"/>
+	    <rel_ref ipr_ref="IPR000844"/>
+	    <rel_ref ipr_ref="IPR001475"/>
+	    <rel_ref ipr_ref="IPR004602"/>
+	    <rel_ref ipr_ref="IPR005283"/>
+	    <rel_ref ipr_ref="IPR005284"/>
+	    <rel_ref ipr_ref="IPR005285"/>
+	    <rel_ref ipr_ref="IPR005286"/>
+	    <rel_ref ipr_ref="IPR005291"/>
+	    <rel_ref ipr_ref="IPR005292"/>
+	    <rel_ref ipr_ref="IPR005293"/>
+	    <rel_ref ipr_ref="IPR005666"/>
+	    <rel_ref ipr_ref="IPR005670"/>
+	    <rel_ref ipr_ref="IPR005876"/>
+	    <rel_ref ipr_ref="IPR005890"/>
+	    <rel_ref ipr_ref="IPR005892"/>
+	    <rel_ref ipr_ref="IPR005893"/>
+	    <rel_ref ipr_ref="IPR005894"/>
+	    <rel_ref ipr_ref="IPR005895"/>
+	    <rel_ref ipr_ref="IPR005896"/>
+	    <rel_ref ipr_ref="IPR005897"/>
+	    <rel_ref ipr_ref="IPR005898"/>
+	    <rel_ref ipr_ref="IPR005951"/>
+	    <rel_ref ipr_ref="IPR005968"/>
+	    <rel_ref ipr_ref="IPR005978"/>
+	    <rel_ref ipr_ref="IPR009147"/>
+	    <rel_ref ipr_ref="IPR010128"/>
+	    <rel_ref ipr_ref="IPR010132"/>
+	    <rel_ref ipr_ref="IPR010230"/>
+	    <rel_ref ipr_ref="IPR011868"/>
+	    <rel_ref ipr_ref="IPR011917"/>
+	    <rel_ref ipr_ref="IPR011918"/>
+	    <rel_ref ipr_ref="IPR011924"/>
+	    <rel_ref ipr_ref="IPR012046"/>
+	    <rel_ref ipr_ref="IPR012692"/>
+	    <rel_ref ipr_ref="IPR012693"/>
+	    <rel_ref ipr_ref="IPR012700"/>
+	    <rel_ref ipr_ref="IPR012701"/>
+	    <rel_ref ipr_ref="IPR013283"/>
+	    <rel_ref ipr_ref="IPR013305"/>
+	    <rel_ref ipr_ref="IPR013306"/>
+	    <rel_ref ipr_ref="IPR013455"/>
+	    <rel_ref ipr_ref="IPR014137"/>
+	    <rel_ref ipr_ref="IPR014138"/>
+	    <rel_ref ipr_ref="IPR014216"/>
+	    <rel_ref ipr_ref="IPR014223"/>
+	    <rel_ref ipr_ref="IPR014324"/>
+	    <rel_ref ipr_ref="IPR014343"/>
+	    <rel_ref ipr_ref="IPR015688"/>
+	    <rel_ref ipr_ref="IPR015851"/>
+	    <rel_ref ipr_ref="IPR015861"/>
+	    <rel_ref ipr_ref="IPR015862"/>
+	    <rel_ref ipr_ref="IPR015863"/>
+	    <rel_ref ipr_ref="IPR017662"/>
+	    <rel_ref ipr_ref="IPR017666"/>
+	    <rel_ref ipr_ref="IPR017669"/>
+	    <rel_ref ipr_ref="IPR017750"/>
+	    <rel_ref ipr_ref="IPR017780"/>
+	    <rel_ref ipr_ref="IPR017781"/>
+	    <rel_ref ipr_ref="IPR017875"/>
+	    <rel_ref ipr_ref="IPR017879"/>
+	    <rel_ref ipr_ref="IPR017882"/>
+	    <rel_ref ipr_ref="IPR017911"/>
+	    <rel_ref ipr_ref="IPR017917"/>
+	    <rel_ref ipr_ref="IPR017922"/>
+	    <rel_ref ipr_ref="IPR020064"/>
+	    <rel_ref ipr_ref="IPR022374"/>
+	    <rel_ref ipr_ref="IPR022514"/>
+	    <rel_ref ipr_ref="IPR022515"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR015850"/>
+	    <rel_ref ipr_ref="IPR015854"/>
+	    <rel_ref ipr_ref="IPR015857"/>
+	    <rel_ref ipr_ref="IPR015858"/>
+	    <rel_ref ipr_ref="IPR015859"/>
+	    <rel_ref ipr_ref="IPR017871"/>
+	  </contains>
+	  <classification id="GO:0005524" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATP binding</description>
+	  </classification>
+	  <classification id="GO:0016887" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATPase activity</description>
+	  </classification>
+	  <match id="PF00005" name="ABC_tran" dbname="PFAM">
+	    <location start="1" end="123" score="1.1e-16" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="PS50893" name="ABC_TRANSPORTER_2" dbname="PROFILE">
+	    <location start="1" end="196" score="11.718" status="T" evidence="ProfileScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR010066" name="Oligopeptide/dipeptide ABC transporter, ATP-binding protein, C-terminal" type="Domain" parent_id="IPR013563">
+	  <classification id="GO:0005524" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATP binding</description>
+	  </classification>
+	  <classification id="GO:0015197" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>peptide transporter activity</description>
+	  </classification>
+	  <classification id="GO:0015833" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>peptide transport</description>
+	  </classification>
+	  <classification id="GO:0016020" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>membrane</description>
+	  </classification>
+	  <match id="TIGR01727" name="oligo_HPY: oligopeptide/dipeptide ABC transporter," dbname="TIGRFAMs">
+	    <location start="173" end="259" score="1.8e-19" status="T" evidence="HMMTigr"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR013563" name="Oligopeptide/dipeptide ABC transporter, C-terminal" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR010066"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR012700"/>
+	 </found_in>
+	  <classification id="GO:0000166" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>nucleotide binding</description>
+	  </classification>
+	  <classification id="GO:0005524" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATP binding</description>
+	  </classification>
+	  <classification id="GO:0015833" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>peptide transport</description>
+	  </classification>
+	  <match id="PF08352" name="oligo_HPY" dbname="PFAM">
+	    <location start="175" end="240" score="7.3e-14" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR017871" name="ABC transporter, conserved site" type="Conserved_site">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000388"/>
+	    <rel_ref ipr_ref="IPR000844"/>
+	    <rel_ref ipr_ref="IPR001475"/>
+	    <rel_ref ipr_ref="IPR003439"/>
+	    <rel_ref ipr_ref="IPR003593"/>
+	    <rel_ref ipr_ref="IPR004602"/>
+	    <rel_ref ipr_ref="IPR005283"/>
+	    <rel_ref ipr_ref="IPR005284"/>
+	    <rel_ref ipr_ref="IPR005285"/>
+	    <rel_ref ipr_ref="IPR005286"/>
+	    <rel_ref ipr_ref="IPR005291"/>
+	    <rel_ref ipr_ref="IPR005292"/>
+	    <rel_ref ipr_ref="IPR005293"/>
+	    <rel_ref ipr_ref="IPR005666"/>
+	    <rel_ref ipr_ref="IPR005670"/>
+	    <rel_ref ipr_ref="IPR005876"/>
+	    <rel_ref ipr_ref="IPR005890"/>
+	    <rel_ref ipr_ref="IPR005892"/>
+	    <rel_ref ipr_ref="IPR005893"/>
+	    <rel_ref ipr_ref="IPR005894"/>
+	    <rel_ref ipr_ref="IPR005895"/>
+	    <rel_ref ipr_ref="IPR005896"/>
+	    <rel_ref ipr_ref="IPR005897"/>
+	    <rel_ref ipr_ref="IPR005898"/>
+	    <rel_ref ipr_ref="IPR005951"/>
+	    <rel_ref ipr_ref="IPR005968"/>
+	    <rel_ref ipr_ref="IPR005978"/>
+	    <rel_ref ipr_ref="IPR009147"/>
+	    <rel_ref ipr_ref="IPR010128"/>
+	    <rel_ref ipr_ref="IPR010132"/>
+	    <rel_ref ipr_ref="IPR010230"/>
+	    <rel_ref ipr_ref="IPR011868"/>
+	    <rel_ref ipr_ref="IPR011917"/>
+	    <rel_ref ipr_ref="IPR011918"/>
+	    <rel_ref ipr_ref="IPR011924"/>
+	    <rel_ref ipr_ref="IPR012692"/>
+	    <rel_ref ipr_ref="IPR012693"/>
+	    <rel_ref ipr_ref="IPR012700"/>
+	    <rel_ref ipr_ref="IPR012701"/>
+	    <rel_ref ipr_ref="IPR013283"/>
+	    <rel_ref ipr_ref="IPR013305"/>
+	    <rel_ref ipr_ref="IPR013455"/>
+	    <rel_ref ipr_ref="IPR014137"/>
+	    <rel_ref ipr_ref="IPR014138"/>
+	    <rel_ref ipr_ref="IPR014216"/>
+	    <rel_ref ipr_ref="IPR014223"/>
+	    <rel_ref ipr_ref="IPR014324"/>
+	    <rel_ref ipr_ref="IPR014343"/>
+	    <rel_ref ipr_ref="IPR015688"/>
+	    <rel_ref ipr_ref="IPR015851"/>
+	    <rel_ref ipr_ref="IPR015856"/>
+	    <rel_ref ipr_ref="IPR015860"/>
+	    <rel_ref ipr_ref="IPR015861"/>
+	    <rel_ref ipr_ref="IPR015862"/>
+	    <rel_ref ipr_ref="IPR015863"/>
+	    <rel_ref ipr_ref="IPR017662"/>
+	    <rel_ref ipr_ref="IPR017666"/>
+	    <rel_ref ipr_ref="IPR017669"/>
+	    <rel_ref ipr_ref="IPR017750"/>
+	    <rel_ref ipr_ref="IPR017875"/>
+	    <rel_ref ipr_ref="IPR017879"/>
+	    <rel_ref ipr_ref="IPR017882"/>
+	    <rel_ref ipr_ref="IPR017902"/>
+	    <rel_ref ipr_ref="IPR017911"/>
+	    <rel_ref ipr_ref="IPR017917"/>
+	    <rel_ref ipr_ref="IPR017922"/>
+	    <rel_ref ipr_ref="IPR019895"/>
+	    <rel_ref ipr_ref="IPR020064"/>
+	    <rel_ref ipr_ref="IPR022374"/>
+	    <rel_ref ipr_ref="IPR022467"/>
+	    <rel_ref ipr_ref="IPR022473"/>
+	    <rel_ref ipr_ref="IPR022501"/>
+	    <rel_ref ipr_ref="IPR022508"/>
+	    <rel_ref ipr_ref="IPR022514"/>
+	    <rel_ref ipr_ref="IPR022515"/>
+	 </found_in>
+	  <classification id="GO:0005524" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATP binding</description>
+	  </classification>
+	  <classification id="GO:0016887" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATPase activity</description>
+	  </classification>
+	  <match id="PS00211" name="ABC_TRANSPORTER_1" dbname="PROSITE">
+	    <location start="96" end="110" score="NA" status="T" evidence="PatternScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR027417" name="P-loop containing nucleoside triphosphate hydrolase" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR003593"/>
+	  </child_list>
+	  <match id="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases" dbname="SUPERFAMILY">
+	    <location start="1" end="245" score="4.9e-47" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="G3DSA:3.40.50.300" name="no description" dbname="GENE3D">
+	    <location start="1" end="197" score="5.3e-53" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR24220" name="FAMILY NOT NAMED" dbname="PANTHER">
+	    <location start="1" end="259" score="2.7e-104" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR24220:SF81" name="CHLOROPLAST ATP-BINDING PROTEIN (CYSA-LIKE PROTEIN)" dbname="PANTHER">
+	    <location start="1" end="259" score="2.7e-104" status="T" evidence="HMMPanther"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

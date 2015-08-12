@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="ERE24518_P5_D08_pZE21_81_104_57C_G15_copy_4" length="246" crc64="94223046C74F771E">
+	<interpro id="IPR002502" name="N-acetylmuramoyl-L-alanine amidase domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR006619"/>
+	  </child_list>
+	  <classification id="GO:0008745" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>N-acetylmuramoyl-L-alanine amidase activity</description>
+	  </classification>
+	  <classification id="GO:0009253" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>peptidoglycan catabolic process</description>
+	  </classification>
+	  <match id="G3DSA:3.40.80.10" name="no description" dbname="GENE3D">
+	    <location start="103" end="243" score="9.6e-37" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PF01510" name="Amidase_2" dbname="PFAM">
+	    <location start="103" end="220" score="3.4e-18" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="SM00644" name="no description" dbname="SMART">
+	    <location start="90" end="226" score="0.00071" status="T" evidence="HMMSmart"/>
+	  </match>
+	  <match id="SSF55846" name="N-acetylmuramoyl-L-alanine amidase-like" dbname="SUPERFAMILY">
+	    <location start="96" end="244" score="3e-34" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR006619" name="Peptidoglycan recognition protein family domain, metazoa/bacteria" type="Domain" parent_id="IPR002502">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR017331"/>
+	 </found_in>
+	  <classification id="GO:0008270" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>zinc ion binding</description>
+	  </classification>
+	  <classification id="GO:0008745" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>N-acetylmuramoyl-L-alanine amidase activity</description>
+	  </classification>
+	  <classification id="GO:0009253" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>peptidoglycan catabolic process</description>
+	  </classification>
+	  <match id="SM00701" name="Animal peptidoglycan recognition proteins ho" dbname="SMART">
+	    <location start="88" end="218" score="6.4e-06" status="T" evidence="HMMSmart"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR015510" name="Peptidoglycan recognition protein" type="Family">
+	  <classification id="GO:0008745" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>N-acetylmuramoyl-L-alanine amidase activity</description>
+	  </classification>
+	  <classification id="GO:0009253" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>peptidoglycan catabolic process</description>
+	  </classification>
+	  <match id="PTHR11022" name="PEPTIDOGLYCAN RECOGNITION PROTEIN" dbname="PANTHER">
+	    <location start="103" end="244" score="6.6e-73" status="T" evidence="HMMPanther"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR018247" name="EF-Hand 1, calcium-binding site" type="Binding_site">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000261"/>
+	    <rel_ref ipr_ref="IPR001125"/>
+	    <rel_ref ipr_ref="IPR001751"/>
+	    <rel_ref ipr_ref="IPR002105"/>
+	    <rel_ref ipr_ref="IPR003299"/>
+	    <rel_ref ipr_ref="IPR008080"/>
+	    <rel_ref ipr_ref="IPR009208"/>
+	    <rel_ref ipr_ref="IPR011992"/>
+	    <rel_ref ipr_ref="IPR012008"/>
+	    <rel_ref ipr_ref="IPR012045"/>
+	    <rel_ref ipr_ref="IPR015754"/>
+	    <rel_ref ipr_ref="IPR015756"/>
+	    <rel_ref ipr_ref="IPR016134"/>
+	    <rel_ref ipr_ref="IPR016279"/>
+	    <rel_ref ipr_ref="IPR016359"/>
+	    <rel_ref ipr_ref="IPR016688"/>
+	    <rel_ref ipr_ref="IPR019577"/>
+	    <rel_ref ipr_ref="IPR021181"/>
+	 </found_in>
+	  <match id="PS00018" name="EF_HAND_1" dbname="PROSITE">
+	    <location start="220" end="232" score="NA" status="T" evidence="PatternScan"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR11022:SF4" name="N-ACETYLMURAMOYL-L-ALANINE AMIDASE" dbname="PANTHER">
+	    <location start="103" end="244" score="6.6e-73" status="T" evidence="HMMPanther"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

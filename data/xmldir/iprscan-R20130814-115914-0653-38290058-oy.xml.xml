@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="ERE27192_F03_PZE218110457C_L06_copy_1" length="116" crc64="F5301AE983AFECD7">
+	<interpro id="IPR025299" name="CstA C-terminal domain" type="Domain">
+	  <match id="PF13722" name="DUF4161" dbname="PFAM">
+	    <location start="4" end="67" score="2.1e-12" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR30252" name="INNER MEMBRANE PEPTIDE TRANSPORTER" dbname="PANTHER">
+	    <location start="1" end="106" score="1.1e-17" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="87" end="98" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="SignalP-NN(euk)" name="signal-peptide" dbname="SIGNALP">
+	    <location start="1" end="41" score="NA" status="?" evidence="SignalPHMM"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="26" end="46" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="51" end="71" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="81" end="99" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

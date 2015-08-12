@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_131_4" length="230" crc64="74495E95DEA15CBF">
+	<interpro id="IPR000719" name="Protein kinase domain" type="Domain" parent_id="IPR011009">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR001245"/>
+	    <rel_ref ipr_ref="IPR002290"/>
+	    <rel_ref ipr_ref="IPR027916"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000239"/>
+	    <rel_ref ipr_ref="IPR002291"/>
+	    <rel_ref ipr_ref="IPR002374"/>
+	    <rel_ref ipr_ref="IPR008350"/>
+	    <rel_ref ipr_ref="IPR008790"/>
+	    <rel_ref ipr_ref="IPR009136"/>
+	    <rel_ref ipr_ref="IPR009220"/>
+	    <rel_ref ipr_ref="IPR012234"/>
+	    <rel_ref ipr_ref="IPR015726"/>
+	    <rel_ref ipr_ref="IPR015782"/>
+	    <rel_ref ipr_ref="IPR015785"/>
+	    <rel_ref ipr_ref="IPR016231"/>
+	    <rel_ref ipr_ref="IPR016232"/>
+	    <rel_ref ipr_ref="IPR016234"/>
+	    <rel_ref ipr_ref="IPR016235"/>
+	    <rel_ref ipr_ref="IPR016237"/>
+	    <rel_ref ipr_ref="IPR016240"/>
+	    <rel_ref ipr_ref="IPR016241"/>
+	    <rel_ref ipr_ref="IPR016242"/>
+	    <rel_ref ipr_ref="IPR016243"/>
+	    <rel_ref ipr_ref="IPR016246"/>
+	    <rel_ref ipr_ref="IPR016247"/>
+	    <rel_ref ipr_ref="IPR016248"/>
+	    <rel_ref ipr_ref="IPR016250"/>
+	    <rel_ref ipr_ref="IPR016251"/>
+	    <rel_ref ipr_ref="IPR016256"/>
+	    <rel_ref ipr_ref="IPR016257"/>
+	    <rel_ref ipr_ref="IPR016815"/>
+	    <rel_ref ipr_ref="IPR016960"/>
+	    <rel_ref ipr_ref="IPR017090"/>
+	    <rel_ref ipr_ref="IPR017164"/>
+	    <rel_ref ipr_ref="IPR017184"/>
+	    <rel_ref ipr_ref="IPR017239"/>
+	    <rel_ref ipr_ref="IPR017322"/>
+	    <rel_ref ipr_ref="IPR017348"/>
+	    <rel_ref ipr_ref="IPR017419"/>
+	    <rel_ref ipr_ref="IPR017424"/>
+	    <rel_ref ipr_ref="IPR017425"/>
+	    <rel_ref ipr_ref="IPR020446"/>
+	    <rel_ref ipr_ref="IPR020455"/>
+	    <rel_ref ipr_ref="IPR020461"/>
+	    <rel_ref ipr_ref="IPR020636"/>
+	    <rel_ref ipr_ref="IPR020658"/>
+	    <rel_ref ipr_ref="IPR020675"/>
+	    <rel_ref ipr_ref="IPR020676"/>
+	    <rel_ref ipr_ref="IPR020677"/>
+	    <rel_ref ipr_ref="IPR020679"/>
+	    <rel_ref ipr_ref="IPR020682"/>
+	    <rel_ref ipr_ref="IPR020684"/>
+	    <rel_ref ipr_ref="IPR020691"/>
+	    <rel_ref ipr_ref="IPR020693"/>
+	    <rel_ref ipr_ref="IPR020766"/>
+	    <rel_ref ipr_ref="IPR020775"/>
+	    <rel_ref ipr_ref="IPR020776"/>
+	    <rel_ref ipr_ref="IPR020777"/>
+	    <rel_ref ipr_ref="IPR021160"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR001824"/>
+	    <rel_ref ipr_ref="IPR002011"/>
+	    <rel_ref ipr_ref="IPR003527"/>
+	    <rel_ref ipr_ref="IPR008266"/>
+	    <rel_ref ipr_ref="IPR008271"/>
+	    <rel_ref ipr_ref="IPR017441"/>
+	  </contains>
+	  <classification id="GO:0004672" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>protein kinase activity</description>
+	  </classification>
+	  <classification id="GO:0005524" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATP binding</description>
+	  </classification>
+	  <classification id="GO:0006468" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>protein phosphorylation</description>
+	  </classification>
+	  <match id="PS50011" name="PROTEIN_KINASE_DOM" dbname="PROFILE">
+	    <location start="33" end="230" score="8.796" status="T" evidence="ProfileScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR002575" name="Aminoglycoside phosphotransferase" type="Domain" parent_id="IPR011009">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR022359"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR012180"/>
+	    <rel_ref ipr_ref="IPR012811"/>
+	 </found_in>
+	  <match id="PF01636" name="APH" dbname="PFAM">
+	    <location start="156" end="217" score="4.6e-10" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR011009" name="Protein kinase-like domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR000403"/>
+	    <rel_ref ipr_ref="IPR000719"/>
+	    <rel_ref ipr_ref="IPR002575"/>
+	    <rel_ref ipr_ref="IPR004147"/>
+	    <rel_ref ipr_ref="IPR004166"/>
+	    <rel_ref ipr_ref="IPR015275"/>
+	    <rel_ref ipr_ref="IPR015897"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000239"/>
+	    <rel_ref ipr_ref="IPR002291"/>
+	    <rel_ref ipr_ref="IPR002374"/>
+	    <rel_ref ipr_ref="IPR008290"/>
+	    <rel_ref ipr_ref="IPR008350"/>
+	    <rel_ref ipr_ref="IPR009136"/>
+	    <rel_ref ipr_ref="IPR009220"/>
+	    <rel_ref ipr_ref="IPR010232"/>
+	    <rel_ref ipr_ref="IPR012180"/>
+	    <rel_ref ipr_ref="IPR012234"/>
+	    <rel_ref ipr_ref="IPR015433"/>
+	    <rel_ref ipr_ref="IPR015726"/>
+	    <rel_ref ipr_ref="IPR015782"/>
+	    <rel_ref ipr_ref="IPR015785"/>
+	    <rel_ref ipr_ref="IPR016231"/>
+	    <rel_ref ipr_ref="IPR016232"/>
+	    <rel_ref ipr_ref="IPR016234"/>
+	    <rel_ref ipr_ref="IPR016235"/>
+	    <rel_ref ipr_ref="IPR016237"/>
+	    <rel_ref ipr_ref="IPR016240"/>
+	    <rel_ref ipr_ref="IPR016241"/>
+	    <rel_ref ipr_ref="IPR016242"/>
+	    <rel_ref ipr_ref="IPR016243"/>
+	    <rel_ref ipr_ref="IPR016246"/>
+	    <rel_ref ipr_ref="IPR016247"/>
+	    <rel_ref ipr_ref="IPR016248"/>
+	    <rel_ref ipr_ref="IPR016250"/>
+	    <rel_ref ipr_ref="IPR016251"/>
+	    <rel_ref ipr_ref="IPR016256"/>
+	    <rel_ref ipr_ref="IPR016257"/>
+	    <rel_ref ipr_ref="IPR017090"/>
+	    <rel_ref ipr_ref="IPR017164"/>
+	    <rel_ref ipr_ref="IPR017184"/>
+	    <rel_ref ipr_ref="IPR017190"/>
+	    <rel_ref ipr_ref="IPR017239"/>
+	    <rel_ref ipr_ref="IPR017322"/>
+	    <rel_ref ipr_ref="IPR017348"/>
+	    <rel_ref ipr_ref="IPR017400"/>
+	    <rel_ref ipr_ref="IPR017406"/>
+	    <rel_ref ipr_ref="IPR017407"/>
+	    <rel_ref ipr_ref="IPR017419"/>
+	    <rel_ref ipr_ref="IPR017424"/>
+	    <rel_ref ipr_ref="IPR017425"/>
+	    <rel_ref ipr_ref="IPR020446"/>
+	    <rel_ref ipr_ref="IPR020455"/>
+	    <rel_ref ipr_ref="IPR020461"/>
+	    <rel_ref ipr_ref="IPR020636"/>
+	    <rel_ref ipr_ref="IPR020658"/>
+	    <rel_ref ipr_ref="IPR020675"/>
+	    <rel_ref ipr_ref="IPR020676"/>
+	    <rel_ref ipr_ref="IPR020677"/>
+	    <rel_ref ipr_ref="IPR020679"/>
+	    <rel_ref ipr_ref="IPR020682"/>
+	    <rel_ref ipr_ref="IPR020684"/>
+	    <rel_ref ipr_ref="IPR020691"/>
+	    <rel_ref ipr_ref="IPR020693"/>
+	    <rel_ref ipr_ref="IPR020766"/>
+	    <rel_ref ipr_ref="IPR020775"/>
+	    <rel_ref ipr_ref="IPR020776"/>
+	    <rel_ref ipr_ref="IPR020777"/>
+	    <rel_ref ipr_ref="IPR021160"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR001824"/>
+	    <rel_ref ipr_ref="IPR002011"/>
+	    <rel_ref ipr_ref="IPR003527"/>
+	    <rel_ref ipr_ref="IPR003605"/>
+	    <rel_ref ipr_ref="IPR007521"/>
+	    <rel_ref ipr_ref="IPR008266"/>
+	    <rel_ref ipr_ref="IPR008271"/>
+	    <rel_ref ipr_ref="IPR017441"/>
+	    <rel_ref ipr_ref="IPR018935"/>
+	    <rel_ref ipr_ref="IPR018936"/>
+	  </contains>
+	  <match id="SSF56112" name="Protein kinase-like (PK-like)" dbname="SUPERFAMILY">
+	    <location start="14" end="218" score="3.9e-22" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="G3DSA:3.90.1200.10" name="no description" dbname="GENE3D">
+	    <location start="135" end="220" score="3.2e-10" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="192" end="206" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

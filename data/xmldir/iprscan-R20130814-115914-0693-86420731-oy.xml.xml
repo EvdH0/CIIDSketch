@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="ERE24518_P5_F08_pZE21_151_174rc_58C_L15_copy_2" length="262" crc64="205749E64780D17D">
+	<interpro id="IPR000640" name="Translation elongation factor EFG, V domain" type="Domain">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR004540"/>
+	    <rel_ref ipr_ref="IPR004543"/>
+	    <rel_ref ipr_ref="IPR006297"/>
+	    <rel_ref ipr_ref="IPR006298"/>
+	 </found_in>
+	  <match id="G3DSA:3.30.70.240" name="no description" dbname="GENE3D">
+	    <location start="160" end="239" score="2.6e-14" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PF00679" name="EFG_C" dbname="PFAM">
+	    <location start="157" end="240" score="4.6e-18" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="SM00838" name="Elongation factor G C-terminus" dbname="SMART">
+	    <location start="157" end="244" score="0.008" status="T" evidence="HMMSmart"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR005517" name="Translation elongation factor EFG/EF2, domain IV" type="Domain" parent_id="IPR014721">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR004540"/>
+	    <rel_ref ipr_ref="IPR004543"/>
+	 </found_in>
+	  <classification id="GO:0005525" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>GTP binding</description>
+	  </classification>
+	  <match id="PF03764" name="EFG_IV" dbname="PFAM">
+	    <location start="39" end="155" score="9.3e-24" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="SM00889" name="Elongation factor G, domain IV" dbname="SMART">
+	    <location start="40" end="155" score="1.6e-14" status="T" evidence="HMMSmart"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR009022" name="Elongation factor G, III-V domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR015269"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR002140"/>
+	    <rel_ref ipr_ref="IPR004540"/>
+	    <rel_ref ipr_ref="IPR004543"/>
+	    <rel_ref ipr_ref="IPR004548"/>
+	    <rel_ref ipr_ref="IPR006297"/>
+	    <rel_ref ipr_ref="IPR006298"/>
+	    <rel_ref ipr_ref="IPR015796"/>
+	 </found_in>
+	  <match id="SSF54980" name="EF-G C-terminal domain-like" dbname="SUPERFAMILY">
+	    <location start="157" end="244" score="2.7e-16" status="T" evidence="superfamily"/>
+	    <location start="5" end="42" score="7.7e-07" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR014721" name="Ribosomal protein S5 domain 2-type fold, subgroup" type="Domain" parent_id="IPR020568">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR005324"/>
+	    <rel_ref ipr_ref="IPR005517"/>
+	    <rel_ref ipr_ref="IPR013506"/>
+	    <rel_ref ipr_ref="IPR013507"/>
+	    <rel_ref ipr_ref="IPR015192"/>
+	    <rel_ref ipr_ref="IPR015320"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000705"/>
+	    <rel_ref ipr_ref="IPR000870"/>
+	    <rel_ref ipr_ref="IPR001174"/>
+	    <rel_ref ipr_ref="IPR002099"/>
+	    <rel_ref ipr_ref="IPR004424"/>
+	    <rel_ref ipr_ref="IPR004540"/>
+	    <rel_ref ipr_ref="IPR004543"/>
+	    <rel_ref ipr_ref="IPR005734"/>
+	    <rel_ref ipr_ref="IPR005916"/>
+	    <rel_ref ipr_ref="IPR005917"/>
+	    <rel_ref ipr_ref="IPR005935"/>
+	    <rel_ref ipr_ref="IPR006205"/>
+	    <rel_ref ipr_ref="IPR006206"/>
+	    <rel_ref ipr_ref="IPR010189"/>
+	    <rel_ref ipr_ref="IPR012369"/>
+	    <rel_ref ipr_ref="IPR014606"/>
+	    <rel_ref ipr_ref="IPR014763"/>
+	    <rel_ref ipr_ref="IPR015434"/>
+	    <rel_ref ipr_ref="IPR016005"/>
+	    <rel_ref ipr_ref="IPR020667"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR006203"/>
+	    <rel_ref ipr_ref="IPR006204"/>
+	    <rel_ref ipr_ref="IPR019539"/>
+	    <rel_ref ipr_ref="IPR019741"/>
+	    <rel_ref ipr_ref="IPR020539"/>
+	    <rel_ref ipr_ref="IPR020574"/>
+	  </contains>
+	  <match id="G3DSA:3.30.230.10" name="no description" dbname="GENE3D">
+	    <location start="50" end="159" score="1.5e-28" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR020568" name="Ribosomal protein S5 domain 2-type fold" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR001247"/>
+	    <rel_ref ipr_ref="IPR001498"/>
+	    <rel_ref ipr_ref="IPR008269"/>
+	    <rel_ref ipr_ref="IPR011334"/>
+	    <rel_ref ipr_ref="IPR014721"/>
+	    <rel_ref ipr_ref="IPR015870"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000565"/>
+	    <rel_ref ipr_ref="IPR000705"/>
+	    <rel_ref ipr_ref="IPR000807"/>
+	    <rel_ref ipr_ref="IPR000851"/>
+	    <rel_ref ipr_ref="IPR001174"/>
+	    <rel_ref ipr_ref="IPR001241"/>
+	    <rel_ref ipr_ref="IPR001404"/>
+	    <rel_ref ipr_ref="IPR002099"/>
+	    <rel_ref ipr_ref="IPR002381"/>
+	    <rel_ref ipr_ref="IPR004422"/>
+	    <rel_ref ipr_ref="IPR004424"/>
+	    <rel_ref ipr_ref="IPR004463"/>
+	    <rel_ref ipr_ref="IPR004482"/>
+	    <rel_ref ipr_ref="IPR004504"/>
+	    <rel_ref ipr_ref="IPR004540"/>
+	    <rel_ref ipr_ref="IPR004543"/>
+	    <rel_ref ipr_ref="IPR004663"/>
+	    <rel_ref ipr_ref="IPR004815"/>
+	    <rel_ref ipr_ref="IPR005711"/>
+	    <rel_ref ipr_ref="IPR005712"/>
+	    <rel_ref ipr_ref="IPR005734"/>
+	    <rel_ref ipr_ref="IPR005737"/>
+	    <rel_ref ipr_ref="IPR005740"/>
+	    <rel_ref ipr_ref="IPR005916"/>
+	    <rel_ref ipr_ref="IPR005917"/>
+	    <rel_ref ipr_ref="IPR005935"/>
+	    <rel_ref ipr_ref="IPR006205"/>
+	    <rel_ref ipr_ref="IPR006206"/>
+	    <rel_ref ipr_ref="IPR010189"/>
+	    <rel_ref ipr_ref="IPR011186"/>
+	    <rel_ref ipr_ref="IPR011557"/>
+	    <rel_ref ipr_ref="IPR011807"/>
+	    <rel_ref ipr_ref="IPR012043"/>
+	    <rel_ref ipr_ref="IPR012162"/>
+	    <rel_ref ipr_ref="IPR012363"/>
+	    <rel_ref ipr_ref="IPR012369"/>
+	    <rel_ref ipr_ref="IPR013473"/>
+	    <rel_ref ipr_ref="IPR014069"/>
+	    <rel_ref ipr_ref="IPR014251"/>
+	    <rel_ref ipr_ref="IPR014252"/>
+	    <rel_ref ipr_ref="IPR014606"/>
+	    <rel_ref ipr_ref="IPR014763"/>
+	    <rel_ref ipr_ref="IPR015434"/>
+	    <rel_ref ipr_ref="IPR015566"/>
+	    <rel_ref ipr_ref="IPR015796"/>
+	    <rel_ref ipr_ref="IPR016005"/>
+	    <rel_ref ipr_ref="IPR020667"/>
+	    <rel_ref ipr_ref="IPR020869"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR006203"/>
+	    <rel_ref ipr_ref="IPR006204"/>
+	    <rel_ref ipr_ref="IPR008268"/>
+	    <rel_ref ipr_ref="IPR018336"/>
+	    <rel_ref ipr_ref="IPR019539"/>
+	    <rel_ref ipr_ref="IPR019741"/>
+	    <rel_ref ipr_ref="IPR020539"/>
+	    <rel_ref ipr_ref="IPR020565"/>
+	    <rel_ref ipr_ref="IPR020569"/>
+	    <rel_ref ipr_ref="IPR020574"/>
+	  </contains>
+	  <match id="SSF54211" name="Ribosomal protein S5 domain 2-like" dbname="SUPERFAMILY">
+	    <location start="39" end="155" score="4.8e-25" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PR01037" name="TCRTETOQM" dbname="PRINTS">
+	    <location start="78" end="92" score="4e-31" status="T" evidence="FPrintScan"/>
+	    <location start="93" end="115" score="4e-31" status="T" evidence="FPrintScan"/>
+	    <location start="127" end="144" score="4e-31" status="T" evidence="FPrintScan"/>
+	  </match>
+	  <match id="G3DSA:3.30.70.870" name="no description" dbname="GENE3D">
+	    <location start="5" end="43" score="4.5e-09" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR23115" name="TRANSLATION FACTOR" dbname="PANTHER">
+	    <location start="1" end="240" score="1.2e-25" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR23115:SF13" name="TRANSLATION ELONGATION FACTOR G" dbname="PANTHER">
+	    <location start="1" end="240" score="1.2e-25" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="SignalP-NN(euk)" name="signal-peptide" dbname="SIGNALP">
+	    <location start="1" end="19" score="NA" status="?" evidence="SignalPHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

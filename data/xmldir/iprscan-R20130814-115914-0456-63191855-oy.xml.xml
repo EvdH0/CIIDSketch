@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="ERE24518_P9_A06_pEZ21_81_104_57C_A11_copy_1" length="181" crc64="E116553CFBFB16F4">
+	<interpro id="IPR002523" name="Mg2+ transporter protein, CorA-like/Zinc transport protein ZntB" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR004488"/>
+	    <rel_ref ipr_ref="IPR023714"/>
+	  </child_list>
+	  <classification id="GO:0016020" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>membrane</description>
+	  </classification>
+	  <classification id="GO:0030001" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>metal ion transport</description>
+	  </classification>
+	  <classification id="GO:0046873" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>metal ion transmembrane transporter activity</description>
+	  </classification>
+	  <classification id="GO:0055085" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>transmembrane transport</description>
+	  </classification>
+	  <match id="PF01544" name="CorA" dbname="PFAM">
+	    <location start="22" end="180" score="3.8e-15" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="131" end="153" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="SSF143865" name="CorA soluble domain-like" dbname="SUPERFAMILY">
+	    <location start="4" end="181" score="4e-22" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

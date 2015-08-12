@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_56_1" length="300" crc64="F8F78E4DDE97CDD5">
+	<interpro id="IPR000292" name="Formate/nitrite transporter" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR023999"/>
+	  </child_list>
+	  <classification id="GO:0005215" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>transporter activity</description>
+	  </classification>
+	  <classification id="GO:0006810" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>transport</description>
+	  </classification>
+	  <classification id="GO:0016020" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>membrane</description>
+	  </classification>
+	  <match id="PF01226" name="Form_Nir_trans" dbname="PFAM">
+	    <location start="48" end="297" score="1e-86" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="TIGR00790" name="fnt: formate/nitrite transporter" dbname="TIGRFAMs">
+	    <location start="63" end="298" score="1.5e-72" status="T" evidence="HMMTigr"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR023271" name="Aquaporin-like" type="Domain">
+	  <match id="G3DSA:1.20.1080.10" name="no description" dbname="GENE3D">
+	    <location start="66" end="300" score="1.6e-81" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR024002" name="Formate/nitrite transporter, conserved site" type="Conserved_site">
+	  <match id="PS01006" name="FORMATE_NITRITE_TP_2" dbname="PROSITE">
+	    <location start="206" end="216" score="NA" status="T" evidence="PatternScan"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR30520" name="FORMATE TRANSPORTER-RELATED" dbname="PANTHER">
+	    <location start="28" end="300" score="2.3e-81" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR30520:SF0" name="FORMATE TRANSPORTER-RELATED" dbname="PANTHER">
+	    <location start="28" end="300" score="2.3e-81" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="91" end="103" score="NA" status="?" evidence="Seg"/>
+	    <location start="281" end="292" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="71" end="91" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="110" end="132" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="153" end="173" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="202" end="222" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="232" end="254" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="278" end="298" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

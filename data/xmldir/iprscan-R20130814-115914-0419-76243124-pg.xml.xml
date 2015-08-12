@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_35_2" length="300" crc64="20F311E2AF10E635">
+	<interpro id="IPR001460" name="Penicillin-binding protein, transpeptidase" type="Domain" parent_id="IPR012338">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR011813"/>
+	    <rel_ref ipr_ref="IPR011815"/>
+	    <rel_ref ipr_ref="IPR011816"/>
+	    <rel_ref ipr_ref="IPR011927"/>
+	    <rel_ref ipr_ref="IPR017790"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR002137"/>
+	  </contains>
+	  <classification id="GO:0008658" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>penicillin binding</description>
+	  </classification>
+	  <match id="PF00905" name="Transpeptidase" dbname="PFAM">
+	    <location start="99" end="293" score="2.9e-35" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR012338" name="Beta-lactamase/transpeptidase-like" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR001460"/>
+	    <rel_ref ipr_ref="IPR001466"/>
+	    <rel_ref ipr_ref="IPR001967"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000667"/>
+	    <rel_ref ipr_ref="IPR000871"/>
+	    <rel_ref ipr_ref="IPR015868"/>
+	    <rel_ref ipr_ref="IPR018044"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR001586"/>
+	    <rel_ref ipr_ref="IPR002137"/>
+	  </contains>
+	  <match id="G3DSA:3.40.710.10" name="no description" dbname="GENE3D">
+	    <location start="65" end="299" score="2.5e-76" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="SSF56601" name="beta-lactamase/transpeptidase-like" dbname="SUPERFAMILY">
+	    <location start="76" end="299" score="7.1e-39" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR30627" name="PENICILLIN-BINDING PROTEIN 2" dbname="PANTHER">
+	    <location start="102" end="180" score="0.00029" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR30627:SF0" name="PENICILLIN-BINDING PROTEIN 2" dbname="PANTHER">
+	    <location start="102" end="180" score="0.00029" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="SignalP-NN(euk)" name="signal-peptide" dbname="SIGNALP">
+	    <location start="1" end="38" score="NA" status="?" evidence="SignalPHMM"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="28" end="48" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

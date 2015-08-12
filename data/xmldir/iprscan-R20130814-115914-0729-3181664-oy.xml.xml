@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_S7_3" length="75" crc64="AE6CF078C82736D7">
+	<interpro id="IPR001647" name="DNA-binding HTH domain, TetR-type" type="Domain" parent_id="IPR009057">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR003012"/>
+	    <rel_ref ipr_ref="IPR012738"/>
+	    <rel_ref ipr_ref="IPR017757"/>
+	    <rel_ref ipr_ref="IPR019915"/>
+	 </found_in>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <match id="PF00440" name="TetR_N" dbname="PFAM">
+	    <location start="51" end="72" score="0.0001" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR009057" name="Homeodomain-like" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR001005"/>
+	    <rel_ref ipr_ref="IPR001356"/>
+	    <rel_ref ipr_ref="IPR001647"/>
+	    <rel_ref ipr_ref="IPR002197"/>
+	    <rel_ref ipr_ref="IPR002622"/>
+	    <rel_ref ipr_ref="IPR006120"/>
+	    <rel_ref ipr_ref="IPR006455"/>
+	    <rel_ref ipr_ref="IPR006600"/>
+	    <rel_ref ipr_ref="IPR007526"/>
+	    <rel_ref ipr_ref="IPR007889"/>
+	    <rel_ref ipr_ref="IPR014875"/>
+	    <rel_ref ipr_ref="IPR015010"/>
+	    <rel_ref ipr_ref="IPR015195"/>
+	    <rel_ref ipr_ref="IPR018060"/>
+	    <rel_ref ipr_ref="IPR023082"/>
+	    <rel_ref ipr_ref="IPR024978"/>
+	    <rel_ref ipr_ref="IPR025246"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000972"/>
+	    <rel_ref ipr_ref="IPR002514"/>
+	    <rel_ref ipr_ref="IPR003022"/>
+	    <rel_ref ipr_ref="IPR003025"/>
+	    <rel_ref ipr_ref="IPR003026"/>
+	    <rel_ref ipr_ref="IPR003220"/>
+	    <rel_ref ipr_ref="IPR005412"/>
+	    <rel_ref ipr_ref="IPR010113"/>
+	    <rel_ref ipr_ref="IPR010114"/>
+	    <rel_ref ipr_ref="IPR011785"/>
+	    <rel_ref ipr_ref="IPR012704"/>
+	    <rel_ref ipr_ref="IPR014264"/>
+	    <rel_ref ipr_ref="IPR014317"/>
+	    <rel_ref ipr_ref="IPR016233"/>
+	    <rel_ref ipr_ref="IPR017894"/>
+	    <rel_ref ipr_ref="IPR019915"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR000047"/>
+	    <rel_ref ipr_ref="IPR015126"/>
+	    <rel_ref ipr_ref="IPR015280"/>
+	    <rel_ref ipr_ref="IPR017930"/>
+	    <rel_ref ipr_ref="IPR017970"/>
+	    <rel_ref ipr_ref="IPR019737"/>
+	    <rel_ref ipr_ref="IPR020479"/>
+	  </contains>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <match id="G3DSA:1.10.10.60" name="no description" dbname="GENE3D">
+	    <location start="38" end="72" score="3.6e-10" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

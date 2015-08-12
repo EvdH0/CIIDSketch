@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="ERE24518_P4_D05_pZE21_151_174rc_58C_H10_copy_3" length="173" crc64="DF64482AAE1F5030">
+	<interpro id="IPR001757" name="Cation-transporting P-type ATPase" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR005782"/>
+	    <rel_ref ipr_ref="IPR006391"/>
+	    <rel_ref ipr_ref="IPR006408"/>
+	    <rel_ref ipr_ref="IPR006413"/>
+	    <rel_ref ipr_ref="IPR006414"/>
+	    <rel_ref ipr_ref="IPR006534"/>
+	    <rel_ref ipr_ref="IPR006539"/>
+	    <rel_ref ipr_ref="IPR006544"/>
+	    <rel_ref ipr_ref="IPR027256"/>
+	  </child_list>
+	  <contains>
+	    <rel_ref ipr_ref="IPR006068"/>
+	    <rel_ref ipr_ref="IPR006121"/>
+	    <rel_ref ipr_ref="IPR008250"/>
+	    <rel_ref ipr_ref="IPR015127"/>
+	    <rel_ref ipr_ref="IPR017969"/>
+	    <rel_ref ipr_ref="IPR018303"/>
+	  </contains>
+	  <classification id="GO:0006812" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>cation transport</description>
+	  </classification>
+	  <classification id="GO:0016021" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>integral to membrane</description>
+	  </classification>
+	  <classification id="GO:0019829" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>cation-transporting ATPase activity</description>
+	  </classification>
+	  <match id="PR00119" name="CATATPASE" dbname="PRINTS">
+	    <location start="91" end="101" score="6.2e-12" status="T" evidence="FPrintScan"/>
+	    <location start="144" end="163" score="6.2e-12" status="T" evidence="FPrintScan"/>
+	  </match>
+	  <match id="PTHR24093" name="FAMILY NOT NAMED" dbname="PANTHER">
+	    <location start="1" end="171" score="8e-96" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="TIGR01494" name="ATPase_P-type: HAD ATPase, P-type, family IC" dbname="TIGRFAMs">
+	    <location start="2" end="165" score="5.4e-38" status="T" evidence="HMMTigr"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR023214" name="HAD-like domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR006549"/>
+	    <rel_ref ipr_ref="IPR011945"/>
+	    <rel_ref ipr_ref="IPR023299"/>
+	  </child_list>
+	  <match id="G3DSA:3.40.50.1000" name="no description" dbname="GENE3D">
+	    <location start="71" end="169" score="8.9e-31" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PF00702" name="Hydrolase" dbname="PFAM">
+	    <location start="52" end="158" score="1.2e-26" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="SSF56784" name="HAD-like" dbname="SUPERFAMILY">
+	    <location start="48" end="171" score="1.5e-29" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR023299" name="P-type ATPase, cytoplasmic domain N" type="Domain" parent_id="IPR023214">
+	  <match id="G3DSA:3.40.1110.10" name="no description" dbname="GENE3D">
+	    <location start="2" end="70" score="6.5e-23" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR24093:SF49" name="E1-E2 ATPASE FAMILY PROTEIN" dbname="PANTHER">
+	    <location start="1" end="171" score="8e-96" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PS01229" name="COF_2" dbname="PROSITE">
+	    <location start="144" end="166" score="NA" status="T" evidence="PatternScan"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

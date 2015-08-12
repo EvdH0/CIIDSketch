@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_91_1" length="125" crc64="EE62D0C4FE2CAA15">
+	<interpro id="IPR000835" name="MarR-type HTH domain" type="Domain" parent_id="IPR011991">
+	  <classification id="GO:0003700" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sequence-specific DNA binding transcription factor activity</description>
+	  </classification>
+	  <classification id="GO:0005622" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>intracellular</description>
+	  </classification>
+	  <match id="PR00598" name="HTHMARR" dbname="PRINTS">
+	    <location start="36" end="52" score="2.2e-25" status="T" evidence="FPrintScan"/>
+	    <location start="53" end="68" score="2.2e-25" status="T" evidence="FPrintScan"/>
+	    <location start="72" end="88" score="2.2e-25" status="T" evidence="FPrintScan"/>
+	    <location start="103" end="123" score="2.2e-25" status="T" evidence="FPrintScan"/>
+	  </match>
+	  <match id="PF01047" name="MarR" dbname="PFAM">
+	    <location start="19" end="77" score="6.8e-18" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="SM00347" name="helix_turn_helix multiple antibiotic resista" dbname="SMART">
+	    <location start="12" end="113" score="3.9e-34" status="T" evidence="HMMSmart"/>
+	  </match>
+	  <match id="PS50995" name="HTH_MARR_2" dbname="PROFILE">
+	    <location start="1" end="125" score="34.995" status="T" evidence="ProfileScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR011991" name="Winged helix-turn-helix DNA-binding domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR000232"/>
+	    <rel_ref ipr_ref="IPR000418"/>
+	    <rel_ref ipr_ref="IPR000485"/>
+	    <rel_ref ipr_ref="IPR000524"/>
+	    <rel_ref ipr_ref="IPR000591"/>
+	    <rel_ref ipr_ref="IPR000607"/>
+	    <rel_ref ipr_ref="IPR000835"/>
+	    <rel_ref ipr_ref="IPR000847"/>
+	    <rel_ref ipr_ref="IPR001346"/>
+	    <rel_ref ipr_ref="IPR001766"/>
+	    <rel_ref ipr_ref="IPR001845"/>
+	    <rel_ref ipr_ref="IPR002577"/>
+	    <rel_ref ipr_ref="IPR002831"/>
+	    <rel_ref ipr_ref="IPR003150"/>
+	    <rel_ref ipr_ref="IPR003316"/>
+	    <rel_ref ipr_ref="IPR004409"/>
+	    <rel_ref ipr_ref="IPR005104"/>
+	    <rel_ref ipr_ref="IPR005561"/>
+	    <rel_ref ipr_ref="IPR005818"/>
+	    <rel_ref ipr_ref="IPR006199"/>
+	    <rel_ref ipr_ref="IPR006630"/>
+	    <rel_ref ipr_ref="IPR008823"/>
+	    <rel_ref ipr_ref="IPR009718"/>
+	    <rel_ref ipr_ref="IPR013196"/>
+	    <rel_ref ipr_ref="IPR014048"/>
+	    <rel_ref ipr_ref="IPR014793"/>
+	    <rel_ref ipr_ref="IPR015102"/>
+	    <rel_ref ipr_ref="IPR015163"/>
+	    <rel_ref ipr_ref="IPR015191"/>
+	    <rel_ref ipr_ref="IPR015198"/>
+	    <rel_ref ipr_ref="IPR015265"/>
+	    <rel_ref ipr_ref="IPR016032"/>
+	    <rel_ref ipr_ref="IPR019559"/>
+	    <rel_ref ipr_ref="IPR020900"/>
+	    <rel_ref ipr_ref="IPR022687"/>
+	    <rel_ref ipr_ref="IPR027395"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000525"/>
+	    <rel_ref ipr_ref="IPR000717"/>
+	    <rel_ref ipr_ref="IPR000943"/>
+	    <rel_ref ipr_ref="IPR001367"/>
+	    <rel_ref ipr_ref="IPR001669"/>
+	    <rel_ref ipr_ref="IPR002571"/>
+	    <rel_ref ipr_ref="IPR002717"/>
+	    <rel_ref ipr_ref="IPR002853"/>
+	    <rel_ref ipr_ref="IPR003196"/>
+	    <rel_ref ipr_ref="IPR003314"/>
+	    <rel_ref ipr_ref="IPR003432"/>
+	    <rel_ref ipr_ref="IPR004085"/>
+	    <rel_ref ipr_ref="IPR004605"/>
+	    <rel_ref ipr_ref="IPR005149"/>
+	    <rel_ref ipr_ref="IPR005234"/>
+	    <rel_ref ipr_ref="IPR005650"/>
+	    <rel_ref ipr_ref="IPR005819"/>
+	    <rel_ref ipr_ref="IPR006200"/>
+	    <rel_ref ipr_ref="IPR006291"/>
+	    <rel_ref ipr_ref="IPR007394"/>
+	    <rel_ref ipr_ref="IPR008339"/>
+	    <rel_ref ipr_ref="IPR008340"/>
+	    <rel_ref ipr_ref="IPR008341"/>
+	    <rel_ref ipr_ref="IPR008342"/>
+	    <rel_ref ipr_ref="IPR008851"/>
+	    <rel_ref ipr_ref="IPR009374"/>
+	    <rel_ref ipr_ref="IPR010166"/>
+	    <rel_ref ipr_ref="IPR010906"/>
+	    <rel_ref ipr_ref="IPR011879"/>
+	    <rel_ref ipr_ref="IPR012015"/>
+	    <rel_ref ipr_ref="IPR012712"/>
+	    <rel_ref ipr_ref="IPR012759"/>
+	    <rel_ref ipr_ref="IPR012760"/>
+	    <rel_ref ipr_ref="IPR012761"/>
+	    <rel_ref ipr_ref="IPR012845"/>
+	    <rel_ref ipr_ref="IPR012967"/>
+	    <rel_ref ipr_ref="IPR014071"/>
+	    <rel_ref ipr_ref="IPR014075"/>
+	    <rel_ref ipr_ref="IPR014091"/>
+	    <rel_ref ipr_ref="IPR014200"/>
+	    <rel_ref ipr_ref="IPR014209"/>
+	    <rel_ref ipr_ref="IPR014212"/>
+	    <rel_ref ipr_ref="IPR014218"/>
+	    <rel_ref ipr_ref="IPR014236"/>
+	    <rel_ref ipr_ref="IPR014277"/>
+	    <rel_ref ipr_ref="IPR014284"/>
+	    <rel_ref ipr_ref="IPR014288"/>
+	    <rel_ref ipr_ref="IPR014322"/>
+	    <rel_ref ipr_ref="IPR014646"/>
+	    <rel_ref ipr_ref="IPR014892"/>
+	    <rel_ref ipr_ref="IPR016262"/>
+	    <rel_ref ipr_ref="IPR016263"/>
+	    <rel_ref ipr_ref="IPR016371"/>
+	    <rel_ref ipr_ref="IPR016461"/>
+	    <rel_ref ipr_ref="IPR016481"/>
+	    <rel_ref ipr_ref="IPR016640"/>
+	    <rel_ref ipr_ref="IPR016656"/>
+	    <rel_ref ipr_ref="IPR016723"/>
+	    <rel_ref ipr_ref="IPR016943"/>
+	    <rel_ref ipr_ref="IPR016998"/>
+	    <rel_ref ipr_ref="IPR017206"/>
+	    <rel_ref ipr_ref="IPR017799"/>
+	    <rel_ref ipr_ref="IPR017848"/>
+	    <rel_ref ipr_ref="IPR019888"/>
+	    <rel_ref ipr_ref="IPR019941"/>
+	    <rel_ref ipr_ref="IPR020890"/>
+	    <rel_ref ipr_ref="IPR022689"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR001497"/>
+	    <rel_ref ipr_ref="IPR001808"/>
+	    <rel_ref ipr_ref="IPR001867"/>
+	    <rel_ref ipr_ref="IPR007624"/>
+	    <rel_ref ipr_ref="IPR007630"/>
+	    <rel_ref ipr_ref="IPR013196"/>
+	    <rel_ref ipr_ref="IPR013324"/>
+	    <rel_ref ipr_ref="IPR015189"/>
+	    <rel_ref ipr_ref="IPR016157"/>
+	    <rel_ref ipr_ref="IPR017919"/>
+	    <rel_ref ipr_ref="IPR018122"/>
+	    <rel_ref ipr_ref="IPR018334"/>
+	    <rel_ref ipr_ref="IPR018335"/>
+	    <rel_ref ipr_ref="IPR019817"/>
+	    <rel_ref ipr_ref="IPR019885"/>
+	  </contains>
+	  <match id="G3DSA:1.10.10.10" name="no description" dbname="GENE3D">
+	    <location start="3" end="123" score="3.5e-33" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR023187" name="Transcriptional regulator MarR-type, conserved site" type="Conserved_site">
+	  <match id="PS01117" name="HTH_MARR_1" dbname="PROSITE">
+	    <location start="51" end="85" score="NA" status="T" evidence="PatternScan"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="SSF46785" name="&quot;Winged helix&quot; DNA-binding domain" dbname="SUPERFAMILY">
+	    <location start="1" end="125" score="5.6e-29" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

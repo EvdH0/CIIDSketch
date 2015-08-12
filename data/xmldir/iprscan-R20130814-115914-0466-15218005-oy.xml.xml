@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_92_3" length="340" crc64="39E2A6A74DD6B858">
+	<interpro id="IPR011701" name="Major facilitator superfamily" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR000849"/>
+	    <rel_ref ipr_ref="IPR001411"/>
+	    <rel_ref ipr_ref="IPR001958"/>
+	    <rel_ref ipr_ref="IPR004734"/>
+	    <rel_ref ipr_ref="IPR004737"/>
+	    <rel_ref ipr_ref="IPR004741"/>
+	    <rel_ref ipr_ref="IPR004742"/>
+	    <rel_ref ipr_ref="IPR004743"/>
+	    <rel_ref ipr_ref="IPR004744"/>
+	    <rel_ref ipr_ref="IPR004745"/>
+	    <rel_ref ipr_ref="IPR004746"/>
+	    <rel_ref ipr_ref="IPR004747"/>
+	    <rel_ref ipr_ref="IPR004748"/>
+	    <rel_ref ipr_ref="IPR004750"/>
+	    <rel_ref ipr_ref="IPR004751"/>
+	    <rel_ref ipr_ref="IPR004752"/>
+	    <rel_ref ipr_ref="IPR004812"/>
+	    <rel_ref ipr_ref="IPR005275"/>
+	    <rel_ref ipr_ref="IPR005277"/>
+	    <rel_ref ipr_ref="IPR005964"/>
+	    <rel_ref ipr_ref="IPR012707"/>
+	    <rel_ref ipr_ref="IPR014090"/>
+	    <rel_ref ipr_ref="IPR017373"/>
+	    <rel_ref ipr_ref="IPR022308"/>
+	    <rel_ref ipr_ref="IPR022324"/>
+	    <rel_ref ipr_ref="IPR022855"/>
+	    <rel_ref ipr_ref="IPR023008"/>
+	    <rel_ref ipr_ref="IPR023495"/>
+	    <rel_ref ipr_ref="IPR023528"/>
+	    <rel_ref ipr_ref="IPR023680"/>
+	    <rel_ref ipr_ref="IPR023697"/>
+	    <rel_ref ipr_ref="IPR023727"/>
+	    <rel_ref ipr_ref="IPR023745"/>
+	    <rel_ref ipr_ref="IPR026355"/>
+	    <rel_ref ipr_ref="IPR027192"/>
+	  </child_list>
+	  <contains>
+	    <rel_ref ipr_ref="IPR005829"/>
+	    <rel_ref ipr_ref="IPR021159"/>
+	  </contains>
+	  <classification id="GO:0016021" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>integral to membrane</description>
+	  </classification>
+	  <classification id="GO:0055085" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>transmembrane transport</description>
+	  </classification>
+	  <match id="PF07690" name="MFS_1" dbname="PFAM">
+	    <location start="11" end="332" score="2.2e-23" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR016196" name="Major facilitator superfamily domain, general substrate transporter" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR020846"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR004742"/>
+	    <rel_ref ipr_ref="IPR005989"/>
+	    <rel_ref ipr_ref="IPR014090"/>
+	    <rel_ref ipr_ref="IPR022308"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR005829"/>
+	    <rel_ref ipr_ref="IPR018043"/>
+	    <rel_ref ipr_ref="IPR018456"/>
+	    <rel_ref ipr_ref="IPR018457"/>
+	    <rel_ref ipr_ref="IPR021159"/>
+	  </contains>
+	  <match id="SSF103473" name="MFS general substrate transporter" dbname="SUPERFAMILY">
+	    <location start="1" end="340" score="8.6e-35" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="G3DSA:1.20.1250.20" name="no description" dbname="GENE3D">
+	    <location start="5" end="190" score="6.5e-20" status="T" evidence="Gene3D"/>
+	    <location start="216" end="330" score="0.00011" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR24003" name="MAJOR FACILITATOR SUPERFAMILY DOMAIN-CONTAINING PROTEIN-RELATED" dbname="PANTHER">
+	    <location start="1" end="340" score="1.1e-28" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="219" end="230" score="NA" status="?" evidence="Seg"/>
+	    <location start="260" end="272" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="SignalP-NN(euk)" name="signal-peptide" dbname="SIGNALP">
+	    <location start="1" end="40" score="NA" status="?" evidence="SignalPHMM"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="10" end="30" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="44" end="64" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="74" end="94" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="100" end="120" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="141" end="161" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="167" end="187" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="208" end="230" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="252" end="272" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="282" end="302" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="308" end="330" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

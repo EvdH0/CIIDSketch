@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_50_1" length="72" crc64="F82EEC80E40DBF04">
+	<interpro id="IPR001387" name="Cro/C1-type helix-turn-helix domain" type="Domain" parent_id="IPR010982">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR013430"/>
+	    <rel_ref ipr_ref="IPR013435"/>
+	    <rel_ref ipr_ref="IPR016429"/>
+	    <rel_ref ipr_ref="IPR016472"/>
+	    <rel_ref ipr_ref="IPR016759"/>
+	    <rel_ref ipr_ref="IPR017158"/>
+	    <rel_ref ipr_ref="IPR017271"/>
+	    <rel_ref ipr_ref="IPR017507"/>
+	    <rel_ref ipr_ref="IPR020886"/>
+	    <rel_ref ipr_ref="IPR022452"/>
+	 </found_in>
+	  <classification id="GO:0043565" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sequence-specific DNA binding</description>
+	  </classification>
+	  <match id="SM00530" name="Helix-turn-helix XRE-family like proteins" dbname="SMART">
+	    <location start="15" end="70" score="1.5e-11" status="T" evidence="HMMSmart"/>
+	  </match>
+	  <match id="PS50943" name="HTH_CROC1" dbname="PROFILE">
+	    <location start="16" end="70" score="14.525" status="T" evidence="ProfileScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR010982" name="Lambda repressor-like, DNA-binding domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR000843"/>
+	    <rel_ref ipr_ref="IPR001387"/>
+	    <rel_ref ipr_ref="IPR027910"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000327"/>
+	    <rel_ref ipr_ref="IPR000972"/>
+	    <rel_ref ipr_ref="IPR004451"/>
+	    <rel_ref ipr_ref="IPR006899"/>
+	    <rel_ref ipr_ref="IPR008076"/>
+	    <rel_ref ipr_ref="IPR010744"/>
+	    <rel_ref ipr_ref="IPR015060"/>
+	    <rel_ref ipr_ref="IPR015584"/>
+	    <rel_ref ipr_ref="IPR015585"/>
+	    <rel_ref ipr_ref="IPR015586"/>
+	    <rel_ref ipr_ref="IPR016362"/>
+	    <rel_ref ipr_ref="IPR020886"/>
+	    <rel_ref ipr_ref="IPR022452"/>
+	 </found_in>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <match id="G3DSA:1.10.260.40" name="no description" dbname="GENE3D">
+	    <location start="10" end="71" score="9.8e-19" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="SSF47413" name="lambda repressor-like DNA-binding domains" dbname="SUPERFAMILY">
+	    <location start="3" end="71" score="1.6e-14" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PF13560" name="HTH_31" dbname="PFAM">
+	    <location start="14" end="67" score="6.8e-11" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

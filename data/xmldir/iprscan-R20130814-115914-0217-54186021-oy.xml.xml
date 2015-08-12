@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_111_5" length="221" crc64="4A903E0DABAC22E0">
+	<interpro id="IPR003439" name="ABC transporter-like" type="Domain" parent_id="IPR003593">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR015856"/>
+	    <rel_ref ipr_ref="IPR015860"/>
+	    <rel_ref ipr_ref="IPR017902"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000388"/>
+	    <rel_ref ipr_ref="IPR000844"/>
+	    <rel_ref ipr_ref="IPR001475"/>
+	    <rel_ref ipr_ref="IPR004602"/>
+	    <rel_ref ipr_ref="IPR005283"/>
+	    <rel_ref ipr_ref="IPR005284"/>
+	    <rel_ref ipr_ref="IPR005285"/>
+	    <rel_ref ipr_ref="IPR005286"/>
+	    <rel_ref ipr_ref="IPR005291"/>
+	    <rel_ref ipr_ref="IPR005292"/>
+	    <rel_ref ipr_ref="IPR005293"/>
+	    <rel_ref ipr_ref="IPR005666"/>
+	    <rel_ref ipr_ref="IPR005670"/>
+	    <rel_ref ipr_ref="IPR005876"/>
+	    <rel_ref ipr_ref="IPR005890"/>
+	    <rel_ref ipr_ref="IPR005892"/>
+	    <rel_ref ipr_ref="IPR005893"/>
+	    <rel_ref ipr_ref="IPR005894"/>
+	    <rel_ref ipr_ref="IPR005895"/>
+	    <rel_ref ipr_ref="IPR005896"/>
+	    <rel_ref ipr_ref="IPR005897"/>
+	    <rel_ref ipr_ref="IPR005898"/>
+	    <rel_ref ipr_ref="IPR005951"/>
+	    <rel_ref ipr_ref="IPR005968"/>
+	    <rel_ref ipr_ref="IPR005978"/>
+	    <rel_ref ipr_ref="IPR009147"/>
+	    <rel_ref ipr_ref="IPR010128"/>
+	    <rel_ref ipr_ref="IPR010132"/>
+	    <rel_ref ipr_ref="IPR010230"/>
+	    <rel_ref ipr_ref="IPR011868"/>
+	    <rel_ref ipr_ref="IPR011917"/>
+	    <rel_ref ipr_ref="IPR011918"/>
+	    <rel_ref ipr_ref="IPR011924"/>
+	    <rel_ref ipr_ref="IPR012046"/>
+	    <rel_ref ipr_ref="IPR012692"/>
+	    <rel_ref ipr_ref="IPR012693"/>
+	    <rel_ref ipr_ref="IPR012700"/>
+	    <rel_ref ipr_ref="IPR012701"/>
+	    <rel_ref ipr_ref="IPR013283"/>
+	    <rel_ref ipr_ref="IPR013305"/>
+	    <rel_ref ipr_ref="IPR013306"/>
+	    <rel_ref ipr_ref="IPR013455"/>
+	    <rel_ref ipr_ref="IPR014137"/>
+	    <rel_ref ipr_ref="IPR014138"/>
+	    <rel_ref ipr_ref="IPR014216"/>
+	    <rel_ref ipr_ref="IPR014223"/>
+	    <rel_ref ipr_ref="IPR014324"/>
+	    <rel_ref ipr_ref="IPR014343"/>
+	    <rel_ref ipr_ref="IPR015688"/>
+	    <rel_ref ipr_ref="IPR015851"/>
+	    <rel_ref ipr_ref="IPR015861"/>
+	    <rel_ref ipr_ref="IPR015862"/>
+	    <rel_ref ipr_ref="IPR015863"/>
+	    <rel_ref ipr_ref="IPR017662"/>
+	    <rel_ref ipr_ref="IPR017666"/>
+	    <rel_ref ipr_ref="IPR017669"/>
+	    <rel_ref ipr_ref="IPR017750"/>
+	    <rel_ref ipr_ref="IPR017780"/>
+	    <rel_ref ipr_ref="IPR017781"/>
+	    <rel_ref ipr_ref="IPR017875"/>
+	    <rel_ref ipr_ref="IPR017879"/>
+	    <rel_ref ipr_ref="IPR017882"/>
+	    <rel_ref ipr_ref="IPR017911"/>
+	    <rel_ref ipr_ref="IPR017917"/>
+	    <rel_ref ipr_ref="IPR017922"/>
+	    <rel_ref ipr_ref="IPR020064"/>
+	    <rel_ref ipr_ref="IPR022374"/>
+	    <rel_ref ipr_ref="IPR022514"/>
+	    <rel_ref ipr_ref="IPR022515"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR015850"/>
+	    <rel_ref ipr_ref="IPR015854"/>
+	    <rel_ref ipr_ref="IPR015857"/>
+	    <rel_ref ipr_ref="IPR015858"/>
+	    <rel_ref ipr_ref="IPR015859"/>
+	    <rel_ref ipr_ref="IPR017871"/>
+	  </contains>
+	  <classification id="GO:0005524" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATP binding</description>
+	  </classification>
+	  <classification id="GO:0016887" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATPase activity</description>
+	  </classification>
+	  <match id="PF00005" name="ABC_tran" dbname="PFAM">
+	    <location start="24" end="56" score="4.1e-07" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="PS50893" name="ABC_TRANSPORTER_2" dbname="PROFILE">
+	    <location start="5" end="196" score="11.585" status="T" evidence="ProfileScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR003593" name="AAA+ ATPase domain" type="Domain" parent_id="IPR027417">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR000523"/>
+	    <rel_ref ipr_ref="IPR000897"/>
+	    <rel_ref ipr_ref="IPR002078"/>
+	    <rel_ref ipr_ref="IPR003439"/>
+	    <rel_ref ipr_ref="IPR003959"/>
+	    <rel_ref ipr_ref="IPR013093"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000194"/>
+	    <rel_ref ipr_ref="IPR000388"/>
+	    <rel_ref ipr_ref="IPR000844"/>
+	    <rel_ref ipr_ref="IPR001208"/>
+	    <rel_ref ipr_ref="IPR001475"/>
+	    <rel_ref ipr_ref="IPR001482"/>
+	    <rel_ref ipr_ref="IPR001957"/>
+	    <rel_ref ipr_ref="IPR002543"/>
+	    <rel_ref ipr_ref="IPR002611"/>
+	    <rel_ref ipr_ref="IPR003450"/>
+	    <rel_ref ipr_ref="IPR004482"/>
+	    <rel_ref ipr_ref="IPR004483"/>
+	    <rel_ref ipr_ref="IPR004487"/>
+	    <rel_ref ipr_ref="IPR004504"/>
+	    <rel_ref ipr_ref="IPR004663"/>
+	    <rel_ref ipr_ref="IPR004665"/>
+	    <rel_ref ipr_ref="IPR004948"/>
+	    <rel_ref ipr_ref="IPR005714"/>
+	    <rel_ref ipr_ref="IPR005722"/>
+	    <rel_ref ipr_ref="IPR005726"/>
+	    <rel_ref ipr_ref="IPR005736"/>
+	    <rel_ref ipr_ref="IPR006321"/>
+	    <rel_ref ipr_ref="IPR006344"/>
+	    <rel_ref ipr_ref="IPR006345"/>
+	    <rel_ref ipr_ref="IPR007692"/>
+	    <rel_ref ipr_ref="IPR007694"/>
+	    <rel_ref ipr_ref="IPR008046"/>
+	    <rel_ref ipr_ref="IPR008047"/>
+	    <rel_ref ipr_ref="IPR008050"/>
+	    <rel_ref ipr_ref="IPR009147"/>
+	    <rel_ref ipr_ref="IPR010128"/>
+	    <rel_ref ipr_ref="IPR010222"/>
+	    <rel_ref ipr_ref="IPR010230"/>
+	    <rel_ref ipr_ref="IPR011579"/>
+	    <rel_ref ipr_ref="IPR011703"/>
+	    <rel_ref ipr_ref="IPR011704"/>
+	    <rel_ref ipr_ref="IPR011938"/>
+	    <rel_ref ipr_ref="IPR011939"/>
+	    <rel_ref ipr_ref="IPR011940"/>
+	    <rel_ref ipr_ref="IPR011941"/>
+	    <rel_ref ipr_ref="IPR012099"/>
+	    <rel_ref ipr_ref="IPR013305"/>
+	    <rel_ref ipr_ref="IPR013317"/>
+	    <rel_ref ipr_ref="IPR013369"/>
+	    <rel_ref ipr_ref="IPR013380"/>
+	    <rel_ref ipr_ref="IPR013462"/>
+	    <rel_ref ipr_ref="IPR013632"/>
+	    <rel_ref ipr_ref="IPR013765"/>
+	    <rel_ref ipr_ref="IPR014217"/>
+	    <rel_ref ipr_ref="IPR014277"/>
+	    <rel_ref ipr_ref="IPR014588"/>
+	    <rel_ref ipr_ref="IPR014759"/>
+	    <rel_ref ipr_ref="IPR014774"/>
+	    <rel_ref ipr_ref="IPR016300"/>
+	    <rel_ref ipr_ref="IPR016366"/>
+	    <rel_ref ipr_ref="IPR016467"/>
+	    <rel_ref ipr_ref="IPR016527"/>
+	    <rel_ref ipr_ref="IPR017466"/>
+	    <rel_ref ipr_ref="IPR017691"/>
+	    <rel_ref ipr_ref="IPR018324"/>
+	    <rel_ref ipr_ref="IPR020005"/>
+	    <rel_ref ipr_ref="IPR020064"/>
+	    <rel_ref ipr_ref="IPR020591"/>
+	    <rel_ref ipr_ref="IPR020793"/>
+	    <rel_ref ipr_ref="IPR022374"/>
+	    <rel_ref ipr_ref="IPR022425"/>
+	    <rel_ref ipr_ref="IPR022426"/>
+	    <rel_ref ipr_ref="IPR022443"/>
+	    <rel_ref ipr_ref="IPR022482"/>
+	    <rel_ref ipr_ref="IPR022514"/>
+	    <rel_ref ipr_ref="IPR022515"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR003960"/>
+	    <rel_ref ipr_ref="IPR015850"/>
+	    <rel_ref ipr_ref="IPR015851"/>
+	    <rel_ref ipr_ref="IPR015854"/>
+	    <rel_ref ipr_ref="IPR015858"/>
+	    <rel_ref ipr_ref="IPR017871"/>
+	    <rel_ref ipr_ref="IPR018368"/>
+	    <rel_ref ipr_ref="IPR018525"/>
+	    <rel_ref ipr_ref="IPR020584"/>
+	    <rel_ref ipr_ref="IPR020588"/>
+	  </contains>
+	  <classification id="GO:0000166" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>nucleotide binding</description>
+	  </classification>
+	  <classification id="GO:0017111" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>nucleoside-triphosphatase activity</description>
+	  </classification>
+	  <match id="SM00382" name="ATPases associated with a variety of cellula" dbname="SMART">
+	    <location start="29" end="173" score="2.4e-08" status="T" evidence="HMMSmart"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR027417" name="P-loop containing nucleoside triphosphate hydrolase" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR003593"/>
+	  </child_list>
+	  <match id="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases" dbname="SUPERFAMILY">
+	    <location start="5" end="220" score="1.2e-35" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="coil" name="coiled-coil" dbname="COIL">
+	    <location start="185" end="213" score="NA" status="?" evidence="Coil"/>
+	  </match>
+	  <match id="G3DSA:3.40.50.300" name="no description" dbname="GENE3D">
+	    <location start="3" end="74" score="2.4e-12" status="T" evidence="Gene3D"/>
+	    <location start="90" end="214" score="6.3e-21" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR19211" name="ATP-BINDING TRANSPORT PROTEIN-RELATED" dbname="PANTHER">
+	    <location start="4" end="218" score="7.8e-40" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PF12848" name="ABC_tran_2" dbname="PFAM">
+	    <location start="167" end="217" score="1.8e-10" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="204" end="218" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

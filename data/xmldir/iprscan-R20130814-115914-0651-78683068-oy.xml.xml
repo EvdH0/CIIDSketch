@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_96_2" length="174" crc64="4B848FE1BB76A56D">
+	<interpro id="IPR001750" name="NADH:ubiquinone/plastoquinone oxidoreductase" type="Domain">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR003917"/>
+	    <rel_ref ipr_ref="IPR003918"/>
+	    <rel_ref ipr_ref="IPR003945"/>
+	    <rel_ref ipr_ref="IPR004775"/>
+	    <rel_ref ipr_ref="IPR010096"/>
+	    <rel_ref ipr_ref="IPR010217"/>
+	    <rel_ref ipr_ref="IPR010227"/>
+	    <rel_ref ipr_ref="IPR018393"/>
+	 </found_in>
+	  <classification id="GO:0008137" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>NADH dehydrogenase (ubiquinone) activity</description>
+	  </classification>
+	  <classification id="GO:0042773" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>ATP synthesis coupled electron transport</description>
+	  </classification>
+	  <classification id="GO:0055114" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>oxidation-reduction process</description>
+	  </classification>
+	  <match id="PF00361" name="Oxidored_q1" dbname="PFAM">
+	    <location start="2" end="82" score="8.6e-18" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR003918" name="NADH:ubiquinone oxidoreductase" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR004775"/>
+	    <rel_ref ipr_ref="IPR010227"/>
+	  </child_list>
+	  <contains>
+	    <rel_ref ipr_ref="IPR001750"/>
+	  </contains>
+	  <classification id="GO:0008137" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>NADH dehydrogenase (ubiquinone) activity</description>
+	  </classification>
+	  <classification id="GO:0042773" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>ATP synthesis coupled electron transport</description>
+	  </classification>
+	  <classification id="GO:0055114" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>oxidation-reduction process</description>
+	  </classification>
+	  <match id="PR01437" name="NUOXDRDTASE4" dbname="PRINTS">
+	    <location start="6" end="25" score="4.7e-12" status="T" evidence="FPrintScan"/>
+	    <location start="58" end="84" score="4.7e-12" status="T" evidence="FPrintScan"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR22773" name="NADH DEHYDROGENASE" dbname="PANTHER">
+	    <location start="1" end="168" score="2.1e-57" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR22773:SF40" name="NADH DEHYDROGENASE SUBUNIT 4" dbname="PANTHER">
+	    <location start="1" end="168" score="2.1e-57" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="139" end="150" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="SignalP-NN(euk)" name="signal-peptide" dbname="SIGNALP">
+	    <location start="1" end="33" score="NA" status="?" evidence="SignalPHMM"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="14" end="32" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="53" end="75" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="94" end="114" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="139" end="157" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

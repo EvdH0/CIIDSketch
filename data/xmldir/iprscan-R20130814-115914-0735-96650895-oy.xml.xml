@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_67_2" length="195" crc64="25245E9DC8F898C1">
+	<interpro id="IPR007627" name="RNA polymerase sigma-70 region 2" type="Domain">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000943"/>
+	    <rel_ref ipr_ref="IPR012759"/>
+	    <rel_ref ipr_ref="IPR012760"/>
+	    <rel_ref ipr_ref="IPR012761"/>
+	    <rel_ref ipr_ref="IPR012845"/>
+	    <rel_ref ipr_ref="IPR013325"/>
+	    <rel_ref ipr_ref="IPR014200"/>
+	    <rel_ref ipr_ref="IPR014209"/>
+	    <rel_ref ipr_ref="IPR014212"/>
+	    <rel_ref ipr_ref="IPR014218"/>
+	    <rel_ref ipr_ref="IPR014236"/>
+	    <rel_ref ipr_ref="IPR014244"/>
+	    <rel_ref ipr_ref="IPR014284"/>
+	    <rel_ref ipr_ref="IPR014286"/>
+	    <rel_ref ipr_ref="IPR014288"/>
+	    <rel_ref ipr_ref="IPR014289"/>
+	    <rel_ref ipr_ref="IPR014293"/>
+	    <rel_ref ipr_ref="IPR014296"/>
+	    <rel_ref ipr_ref="IPR014298"/>
+	    <rel_ref ipr_ref="IPR014300"/>
+	    <rel_ref ipr_ref="IPR014303"/>
+	    <rel_ref ipr_ref="IPR014304"/>
+	    <rel_ref ipr_ref="IPR014305"/>
+	    <rel_ref ipr_ref="IPR014322"/>
+	    <rel_ref ipr_ref="IPR014325"/>
+	    <rel_ref ipr_ref="IPR014326"/>
+	    <rel_ref ipr_ref="IPR014327"/>
+	    <rel_ref ipr_ref="IPR014331"/>
+	    <rel_ref ipr_ref="IPR016262"/>
+	    <rel_ref ipr_ref="IPR016263"/>
+	    <rel_ref ipr_ref="IPR016371"/>
+	    <rel_ref ipr_ref="IPR017848"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR000838"/>
+	  </contains>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <classification id="GO:0003700" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sequence-specific DNA binding transcription factor activity</description>
+	  </classification>
+	  <classification id="GO:0016987" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sigma factor activity</description>
+	  </classification>
+	  <match id="PF04542" name="Sigma70_r2" dbname="PFAM">
+	    <location start="28" end="95" score="4.1e-18" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR011991" name="Winged helix-turn-helix DNA-binding domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR000232"/>
+	    <rel_ref ipr_ref="IPR000418"/>
+	    <rel_ref ipr_ref="IPR000485"/>
+	    <rel_ref ipr_ref="IPR000524"/>
+	    <rel_ref ipr_ref="IPR000591"/>
+	    <rel_ref ipr_ref="IPR000607"/>
+	    <rel_ref ipr_ref="IPR000835"/>
+	    <rel_ref ipr_ref="IPR000847"/>
+	    <rel_ref ipr_ref="IPR001346"/>
+	    <rel_ref ipr_ref="IPR001766"/>
+	    <rel_ref ipr_ref="IPR001845"/>
+	    <rel_ref ipr_ref="IPR002577"/>
+	    <rel_ref ipr_ref="IPR002831"/>
+	    <rel_ref ipr_ref="IPR003150"/>
+	    <rel_ref ipr_ref="IPR003316"/>
+	    <rel_ref ipr_ref="IPR004409"/>
+	    <rel_ref ipr_ref="IPR005104"/>
+	    <rel_ref ipr_ref="IPR005561"/>
+	    <rel_ref ipr_ref="IPR005818"/>
+	    <rel_ref ipr_ref="IPR006199"/>
+	    <rel_ref ipr_ref="IPR006630"/>
+	    <rel_ref ipr_ref="IPR008823"/>
+	    <rel_ref ipr_ref="IPR009718"/>
+	    <rel_ref ipr_ref="IPR013196"/>
+	    <rel_ref ipr_ref="IPR014048"/>
+	    <rel_ref ipr_ref="IPR014793"/>
+	    <rel_ref ipr_ref="IPR015102"/>
+	    <rel_ref ipr_ref="IPR015163"/>
+	    <rel_ref ipr_ref="IPR015191"/>
+	    <rel_ref ipr_ref="IPR015198"/>
+	    <rel_ref ipr_ref="IPR015265"/>
+	    <rel_ref ipr_ref="IPR016032"/>
+	    <rel_ref ipr_ref="IPR019559"/>
+	    <rel_ref ipr_ref="IPR020900"/>
+	    <rel_ref ipr_ref="IPR022687"/>
+	    <rel_ref ipr_ref="IPR027395"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000525"/>
+	    <rel_ref ipr_ref="IPR000717"/>
+	    <rel_ref ipr_ref="IPR000943"/>
+	    <rel_ref ipr_ref="IPR001367"/>
+	    <rel_ref ipr_ref="IPR001669"/>
+	    <rel_ref ipr_ref="IPR002571"/>
+	    <rel_ref ipr_ref="IPR002717"/>
+	    <rel_ref ipr_ref="IPR002853"/>
+	    <rel_ref ipr_ref="IPR003196"/>
+	    <rel_ref ipr_ref="IPR003314"/>
+	    <rel_ref ipr_ref="IPR003432"/>
+	    <rel_ref ipr_ref="IPR004085"/>
+	    <rel_ref ipr_ref="IPR004605"/>
+	    <rel_ref ipr_ref="IPR005149"/>
+	    <rel_ref ipr_ref="IPR005234"/>
+	    <rel_ref ipr_ref="IPR005650"/>
+	    <rel_ref ipr_ref="IPR005819"/>
+	    <rel_ref ipr_ref="IPR006200"/>
+	    <rel_ref ipr_ref="IPR006291"/>
+	    <rel_ref ipr_ref="IPR007394"/>
+	    <rel_ref ipr_ref="IPR008339"/>
+	    <rel_ref ipr_ref="IPR008340"/>
+	    <rel_ref ipr_ref="IPR008341"/>
+	    <rel_ref ipr_ref="IPR008342"/>
+	    <rel_ref ipr_ref="IPR008851"/>
+	    <rel_ref ipr_ref="IPR009374"/>
+	    <rel_ref ipr_ref="IPR010166"/>
+	    <rel_ref ipr_ref="IPR010906"/>
+	    <rel_ref ipr_ref="IPR011879"/>
+	    <rel_ref ipr_ref="IPR012015"/>
+	    <rel_ref ipr_ref="IPR012712"/>
+	    <rel_ref ipr_ref="IPR012759"/>
+	    <rel_ref ipr_ref="IPR012760"/>
+	    <rel_ref ipr_ref="IPR012761"/>
+	    <rel_ref ipr_ref="IPR012845"/>
+	    <rel_ref ipr_ref="IPR012967"/>
+	    <rel_ref ipr_ref="IPR014071"/>
+	    <rel_ref ipr_ref="IPR014075"/>
+	    <rel_ref ipr_ref="IPR014091"/>
+	    <rel_ref ipr_ref="IPR014200"/>
+	    <rel_ref ipr_ref="IPR014209"/>
+	    <rel_ref ipr_ref="IPR014212"/>
+	    <rel_ref ipr_ref="IPR014218"/>
+	    <rel_ref ipr_ref="IPR014236"/>
+	    <rel_ref ipr_ref="IPR014277"/>
+	    <rel_ref ipr_ref="IPR014284"/>
+	    <rel_ref ipr_ref="IPR014288"/>
+	    <rel_ref ipr_ref="IPR014322"/>
+	    <rel_ref ipr_ref="IPR014646"/>
+	    <rel_ref ipr_ref="IPR014892"/>
+	    <rel_ref ipr_ref="IPR016262"/>
+	    <rel_ref ipr_ref="IPR016263"/>
+	    <rel_ref ipr_ref="IPR016371"/>
+	    <rel_ref ipr_ref="IPR016461"/>
+	    <rel_ref ipr_ref="IPR016481"/>
+	    <rel_ref ipr_ref="IPR016640"/>
+	    <rel_ref ipr_ref="IPR016656"/>
+	    <rel_ref ipr_ref="IPR016723"/>
+	    <rel_ref ipr_ref="IPR016943"/>
+	    <rel_ref ipr_ref="IPR016998"/>
+	    <rel_ref ipr_ref="IPR017206"/>
+	    <rel_ref ipr_ref="IPR017799"/>
+	    <rel_ref ipr_ref="IPR017848"/>
+	    <rel_ref ipr_ref="IPR019888"/>
+	    <rel_ref ipr_ref="IPR019941"/>
+	    <rel_ref ipr_ref="IPR020890"/>
+	    <rel_ref ipr_ref="IPR022689"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR001497"/>
+	    <rel_ref ipr_ref="IPR001808"/>
+	    <rel_ref ipr_ref="IPR001867"/>
+	    <rel_ref ipr_ref="IPR007624"/>
+	    <rel_ref ipr_ref="IPR007630"/>
+	    <rel_ref ipr_ref="IPR013196"/>
+	    <rel_ref ipr_ref="IPR013324"/>
+	    <rel_ref ipr_ref="IPR015189"/>
+	    <rel_ref ipr_ref="IPR016157"/>
+	    <rel_ref ipr_ref="IPR017919"/>
+	    <rel_ref ipr_ref="IPR018122"/>
+	    <rel_ref ipr_ref="IPR018334"/>
+	    <rel_ref ipr_ref="IPR018335"/>
+	    <rel_ref ipr_ref="IPR019817"/>
+	    <rel_ref ipr_ref="IPR019885"/>
+	  </contains>
+	  <match id="G3DSA:1.10.10.10" name="no description" dbname="GENE3D">
+	    <location start="128" end="188" score="1.4e-23" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR013249" name="RNA polymerase sigma factor 70, region 4 type 2" type="Domain" parent_id="IPR013324">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR011745"/>
+	    <rel_ref ipr_ref="IPR014218"/>
+	    <rel_ref ipr_ref="IPR014286"/>
+	    <rel_ref ipr_ref="IPR014289"/>
+	    <rel_ref ipr_ref="IPR014293"/>
+	    <rel_ref ipr_ref="IPR014294"/>
+	    <rel_ref ipr_ref="IPR014296"/>
+	    <rel_ref ipr_ref="IPR014298"/>
+	    <rel_ref ipr_ref="IPR014303"/>
+	    <rel_ref ipr_ref="IPR014304"/>
+	    <rel_ref ipr_ref="IPR014305"/>
+	    <rel_ref ipr_ref="IPR014325"/>
+	    <rel_ref ipr_ref="IPR014326"/>
+	    <rel_ref ipr_ref="IPR014327"/>
+	    <rel_ref ipr_ref="IPR014331"/>
+	    <rel_ref ipr_ref="IPR016371"/>
+	    <rel_ref ipr_ref="IPR017622"/>
+	 </found_in>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <classification id="GO:0003700" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sequence-specific DNA binding transcription factor activity</description>
+	  </classification>
+	  <classification id="GO:0016987" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sigma factor activity</description>
+	  </classification>
+	  <match id="PF08281" name="Sigma70_r4_2" dbname="PFAM">
+	    <location start="132" end="184" score="9.3e-19" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR013324" name="RNA polymerase sigma factor, region 3/4" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR013249"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000943"/>
+	    <rel_ref ipr_ref="IPR007394"/>
+	    <rel_ref ipr_ref="IPR011517"/>
+	    <rel_ref ipr_ref="IPR011991"/>
+	    <rel_ref ipr_ref="IPR012759"/>
+	    <rel_ref ipr_ref="IPR012760"/>
+	    <rel_ref ipr_ref="IPR012761"/>
+	    <rel_ref ipr_ref="IPR012845"/>
+	    <rel_ref ipr_ref="IPR014200"/>
+	    <rel_ref ipr_ref="IPR014209"/>
+	    <rel_ref ipr_ref="IPR014212"/>
+	    <rel_ref ipr_ref="IPR014236"/>
+	    <rel_ref ipr_ref="IPR014284"/>
+	    <rel_ref ipr_ref="IPR014288"/>
+	    <rel_ref ipr_ref="IPR014294"/>
+	    <rel_ref ipr_ref="IPR014300"/>
+	    <rel_ref ipr_ref="IPR014305"/>
+	    <rel_ref ipr_ref="IPR014322"/>
+	    <rel_ref ipr_ref="IPR016262"/>
+	    <rel_ref ipr_ref="IPR017848"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR007624"/>
+	    <rel_ref ipr_ref="IPR007630"/>
+	  </contains>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <classification id="GO:0003700" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sequence-specific DNA binding transcription factor activity</description>
+	  </classification>
+	  <classification id="GO:0016987" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sigma factor activity</description>
+	  </classification>
+	  <match id="SSF88659" name="Sigma3 and sigma4 domains of RNA polymerase sigma factors" dbname="SUPERFAMILY">
+	    <location start="120" end="190" score="2.4e-16" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR013325" name="RNA polymerase sigma factor, region 2" type="Domain">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000943"/>
+	    <rel_ref ipr_ref="IPR011517"/>
+	    <rel_ref ipr_ref="IPR012759"/>
+	    <rel_ref ipr_ref="IPR012761"/>
+	    <rel_ref ipr_ref="IPR012845"/>
+	    <rel_ref ipr_ref="IPR014200"/>
+	    <rel_ref ipr_ref="IPR014209"/>
+	    <rel_ref ipr_ref="IPR014212"/>
+	    <rel_ref ipr_ref="IPR014218"/>
+	    <rel_ref ipr_ref="IPR014236"/>
+	    <rel_ref ipr_ref="IPR014244"/>
+	    <rel_ref ipr_ref="IPR014284"/>
+	    <rel_ref ipr_ref="IPR014286"/>
+	    <rel_ref ipr_ref="IPR014288"/>
+	    <rel_ref ipr_ref="IPR014289"/>
+	    <rel_ref ipr_ref="IPR014293"/>
+	    <rel_ref ipr_ref="IPR014294"/>
+	    <rel_ref ipr_ref="IPR014296"/>
+	    <rel_ref ipr_ref="IPR014298"/>
+	    <rel_ref ipr_ref="IPR014300"/>
+	    <rel_ref ipr_ref="IPR014303"/>
+	    <rel_ref ipr_ref="IPR014304"/>
+	    <rel_ref ipr_ref="IPR014305"/>
+	    <rel_ref ipr_ref="IPR014322"/>
+	    <rel_ref ipr_ref="IPR014325"/>
+	    <rel_ref ipr_ref="IPR014326"/>
+	    <rel_ref ipr_ref="IPR014327"/>
+	    <rel_ref ipr_ref="IPR014331"/>
+	    <rel_ref ipr_ref="IPR016262"/>
+	    <rel_ref ipr_ref="IPR016263"/>
+	    <rel_ref ipr_ref="IPR016371"/>
+	    <rel_ref ipr_ref="IPR017848"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR000838"/>
+	    <rel_ref ipr_ref="IPR007627"/>
+	    <rel_ref ipr_ref="IPR007631"/>
+	    <rel_ref ipr_ref="IPR009042"/>
+	  </contains>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <classification id="GO:0003700" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sequence-specific DNA binding transcription factor activity</description>
+	  </classification>
+	  <classification id="GO:0016987" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sigma factor activity</description>
+	  </classification>
+	  <match id="SSF88946" name="Sigma2 domain of RNA polymerase sigma factors" dbname="SUPERFAMILY">
+	    <location start="8" end="113" score="8.9e-24" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR014284" name="RNA polymerase sigma-70 like domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR000943"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR011517"/>
+	    <rel_ref ipr_ref="IPR011745"/>
+	    <rel_ref ipr_ref="IPR014244"/>
+	    <rel_ref ipr_ref="IPR014286"/>
+	    <rel_ref ipr_ref="IPR014289"/>
+	    <rel_ref ipr_ref="IPR014293"/>
+	    <rel_ref ipr_ref="IPR014294"/>
+	    <rel_ref ipr_ref="IPR014296"/>
+	    <rel_ref ipr_ref="IPR014298"/>
+	    <rel_ref ipr_ref="IPR014300"/>
+	    <rel_ref ipr_ref="IPR014303"/>
+	    <rel_ref ipr_ref="IPR014304"/>
+	    <rel_ref ipr_ref="IPR014305"/>
+	    <rel_ref ipr_ref="IPR014325"/>
+	    <rel_ref ipr_ref="IPR014326"/>
+	    <rel_ref ipr_ref="IPR014327"/>
+	    <rel_ref ipr_ref="IPR014331"/>
+	    <rel_ref ipr_ref="IPR017622"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR000838"/>
+	    <rel_ref ipr_ref="IPR007624"/>
+	    <rel_ref ipr_ref="IPR007627"/>
+	    <rel_ref ipr_ref="IPR007630"/>
+	    <rel_ref ipr_ref="IPR011991"/>
+	    <rel_ref ipr_ref="IPR013324"/>
+	    <rel_ref ipr_ref="IPR013325"/>
+	  </contains>
+	  <classification id="GO:0003677" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>DNA binding</description>
+	  </classification>
+	  <classification id="GO:0003700" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sequence-specific DNA binding transcription factor activity</description>
+	  </classification>
+	  <classification id="GO:0016987" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>sigma factor activity</description>
+	  </classification>
+	  <match id="TIGR02937" name="sigma70-ECF: RNA polymerase sigma factor, sigma-70" dbname="TIGRFAMs">
+	    <location start="23" end="188" score="8.9e-37" status="T" evidence="HMMTigr"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="coil" name="coiled-coil" dbname="COIL">
+	    <location start="124" end="145" score="NA" status="?" evidence="Coil"/>
+	  </match>
+	  <match id="G3DSA:1.10.1740.10" name="no description" dbname="GENE3D">
+	    <location start="9" end="125" score="4.6e-32" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR30173" name="SIGMA 19 FACTOR" dbname="PANTHER">
+	    <location start="14" end="193" score="2.1e-06" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR30173:SF0" name="SIGMA 19 FACTOR" dbname="PANTHER">
+	    <location start="14" end="193" score="2.1e-06" status="T" evidence="HMMPanther"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="ERE27192_F03_PZE21151174RC58C_K06_copy_3" length="264" crc64="1F0E753AED163E4C">
+	<interpro id="IPR002903" name="Ribosomal RNA small subunit methyltransferase H" type="Family">
+	  <classification id="GO:0008168" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>methyltransferase activity</description>
+	  </classification>
+	  <match id="PTHR11265" name="S-ADENOSYL-METHYLTRANSFERASE MRAW" dbname="PANTHER">
+	    <location start="12" end="264" score="1.2e-57" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PF01795" name="Methyltransf_5" dbname="PFAM">
+	    <location start="5" end="263" score="9e-60" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="TIGR00006" name="TIGR00006: 16S rRNA (cytosine(1402)-N(4))-methyltr" dbname="TIGRFAMs">
+	    <location start="8" end="263" score="2e-56" status="T" evidence="HMMTigr"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR023397" name="S-adenosyl-L-methionine-dependent methyltransferase, MraW, recognition domain" type="Domain">
+	  <classification id="GO:0008168" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>methyltransferase activity</description>
+	  </classification>
+	  <match id="G3DSA:1.10.150.170" name="no description" dbname="GENE3D">
+	    <location start="76" end="184" score="1.5e-29" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="SSF81799" name="Putative methyltransferase TM0872, insert domain" dbname="SUPERFAMILY">
+	    <location start="77" end="183" score="7e-25" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="G3DSA:3.40.50.150" name="no description" dbname="GENE3D">
+	    <location start="185" end="263" score="2.4e-29" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR11265:SF0" name="SUBFAMILY NOT NAMED" dbname="PANTHER">
+	    <location start="12" end="264" score="1.2e-57" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="SSF53335" name="S-adenosyl-L-methionine-dependent methyltransferases" dbname="SUPERFAMILY">
+	    <location start="6" end="263" score="1.5e-23" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

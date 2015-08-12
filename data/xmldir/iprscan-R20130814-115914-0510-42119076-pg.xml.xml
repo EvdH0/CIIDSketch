@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_138_3" length="326" crc64="E48AE0C163F52D93">
+	<interpro id="IPR001036" name="Acriflavin resistance protein" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR004763"/>
+	    <rel_ref ipr_ref="IPR004764"/>
+	    <rel_ref ipr_ref="IPR022831"/>
+	    <rel_ref ipr_ref="IPR023931"/>
+	  </child_list>
+	  <classification id="GO:0005215" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>transporter activity</description>
+	  </classification>
+	  <classification id="GO:0006810" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>transport</description>
+	  </classification>
+	  <classification id="GO:0016020" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>membrane</description>
+	  </classification>
+	  <match id="PR00702" name="ACRIFLAVINRP" dbname="PRINTS">
+	    <location start="271" end="294" score="2.8e-07" status="T" evidence="FPrintScan"/>
+	    <location start="298" end="319" score="2.8e-07" status="T" evidence="FPrintScan"/>
+	  </match>
+	  <match id="PF00873" name="ACR_tran" dbname="PFAM">
+	    <location start="135" end="325" score="8.4e-33" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR027463" name="Multidrug efflux transporter AcrB TolC docking domain, DN/DC subdomains" type="Domain">
+	  <match id="G3DSA:3.30.2090.10" name="no description" dbname="GENE3D">
+	    <location start="137" end="205" score="0.00066" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="coil" name="coiled-coil" dbname="COIL">
+	    <location start="92" end="127" score="NA" status="?" evidence="Coil"/>
+	  </match>
+	  <match id="G3DSA:1.10.3850.10" name="no description" dbname="GENE3D">
+	    <location start="216" end="324" score="1.8e-13" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PTHR32063" name="FAMILY NOT NAMED" dbname="PANTHER">
+	    <location start="137" end="325" score="1.4e-31" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR32063:SF0" name="SUBFAMILY NOT NAMED" dbname="PANTHER">
+	    <location start="137" end="325" score="1.4e-31" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="69" end="81" score="NA" status="?" evidence="Seg"/>
+	    <location start="116" end="132" score="NA" status="?" evidence="Seg"/>
+	    <location start="226" end="236" score="NA" status="?" evidence="Seg"/>
+	    <location start="268" end="280" score="NA" status="?" evidence="Seg"/>
+	    <location start="287" end="294" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="274" end="294" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="299" end="319" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	  <match id="SSF82866" name="Multidrug efflux transporter AcrB transmembrane domain" dbname="SUPERFAMILY">
+	    <location start="232" end="326" score="2.9e-09" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

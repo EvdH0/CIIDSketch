@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_93_1" length="83" crc64="8FE9BE9BEE173EB8">
+	<interpro id="IPR002528" name="Multi antimicrobial extrusion protein" type="Family">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR015522"/>
+	    <rel_ref ipr_ref="IPR022913"/>
+	  </child_list>
+	  <classification id="GO:0006855" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>drug transmembrane transport</description>
+	  </classification>
+	  <classification id="GO:0015238" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>drug transmembrane transporter activity</description>
+	  </classification>
+	  <classification id="GO:0015297" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>antiporter activity</description>
+	  </classification>
+	  <classification id="GO:0016020" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>membrane</description>
+	  </classification>
+	  <classification id="GO:0055085" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>transmembrane transport</description>
+	  </classification>
+	  <match id="PF01554" name="MatE" dbname="PFAM">
+	    <location start="13" end="78" score="3.5e-07" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR11206" name="MULTIDRUG RESISTANCE PROTEIN" dbname="PANTHER">
+	    <location start="5" end="77" score="7.6e-12" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="SignalP-NN(euk)" name="signal-peptide" dbname="SIGNALP">
+	    <location start="1" end="29" score="NA" status="?" evidence="SignalPHMM"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="12" end="34" score="NA" status="?" evidence="TMHMM"/>
+	    <location start="40" end="58" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

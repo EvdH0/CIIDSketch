@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_165_4" length="235" crc64="FCFB20DEF2B9A006">
+	<interpro id="IPR003594" name="Histidine kinase-like ATPase, ATP-binding domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR020575"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR001241"/>
+	    <rel_ref ipr_ref="IPR001294"/>
+	    <rel_ref ipr_ref="IPR001404"/>
+	    <rel_ref ipr_ref="IPR002099"/>
+	    <rel_ref ipr_ref="IPR005467"/>
+	    <rel_ref ipr_ref="IPR005734"/>
+	    <rel_ref ipr_ref="IPR005737"/>
+	    <rel_ref ipr_ref="IPR005740"/>
+	    <rel_ref ipr_ref="IPR006290"/>
+	    <rel_ref ipr_ref="IPR008358"/>
+	    <rel_ref ipr_ref="IPR010193"/>
+	    <rel_ref ipr_ref="IPR010194"/>
+	    <rel_ref ipr_ref="IPR011186"/>
+	    <rel_ref ipr_ref="IPR011557"/>
+	    <rel_ref ipr_ref="IPR012129"/>
+	    <rel_ref ipr_ref="IPR014285"/>
+	    <rel_ref ipr_ref="IPR014525"/>
+	    <rel_ref ipr_ref="IPR014763"/>
+	    <rel_ref ipr_ref="IPR015434"/>
+	    <rel_ref ipr_ref="IPR015566"/>
+	    <rel_ref ipr_ref="IPR016380"/>
+	    <rel_ref ipr_ref="IPR016381"/>
+	    <rel_ref ipr_ref="IPR016781"/>
+	    <rel_ref ipr_ref="IPR017171"/>
+	    <rel_ref ipr_ref="IPR017202"/>
+	    <rel_ref ipr_ref="IPR017204"/>
+	    <rel_ref ipr_ref="IPR017205"/>
+	    <rel_ref ipr_ref="IPR017206"/>
+	    <rel_ref ipr_ref="IPR020667"/>
+	    <rel_ref ipr_ref="IPR022510"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR014762"/>
+	    <rel_ref ipr_ref="IPR019805"/>
+	  </contains>
+	  <classification id="GO:0005524" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>ATP binding</description>
+	  </classification>
+	  <match id="G3DSA:3.30.565.10" name="no description" dbname="GENE3D">
+	    <location start="112" end="227" score="1.2e-19" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="PF02518" name="HATPase_c" dbname="PFAM">
+	    <location start="172" end="228" score="1.4e-09" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="SSF55874" name="ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase" dbname="SUPERFAMILY">
+	    <location start="115" end="227" score="8.3e-21" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR003661" name="Signal transduction histidine kinase, subgroup 1, dimerisation/phosphoacceptor domain" type="Domain" parent_id="IPR009082">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR001294"/>
+	    <rel_ref ipr_ref="IPR005467"/>
+	    <rel_ref ipr_ref="IPR006290"/>
+	    <rel_ref ipr_ref="IPR008358"/>
+	    <rel_ref ipr_ref="IPR012129"/>
+	    <rel_ref ipr_ref="IPR014265"/>
+	    <rel_ref ipr_ref="IPR014302"/>
+	    <rel_ref ipr_ref="IPR014310"/>
+	    <rel_ref ipr_ref="IPR014409"/>
+	    <rel_ref ipr_ref="IPR014525"/>
+	    <rel_ref ipr_ref="IPR017055"/>
+	    <rel_ref ipr_ref="IPR017116"/>
+	    <rel_ref ipr_ref="IPR017181"/>
+	    <rel_ref ipr_ref="IPR017232"/>
+	    <rel_ref ipr_ref="IPR022510"/>
+	 </found_in>
+	  <classification id="GO:0000155" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>phosphorelay sensor kinase activity</description>
+	  </classification>
+	  <classification id="GO:0007165" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>signal transduction</description>
+	  </classification>
+	  <classification id="GO:0016020" class_type="GO">
+	    <category>Cellular Component</category>
+	    <description>membrane</description>
+	  </classification>
+	  <match id="PF00512" name="HisKA" dbname="PFAM">
+	    <location start="62" end="126" score="2e-16" status="T" evidence="HMMPfam"/>
+	  </match>
+	  <match id="SM00388" name="His Kinase A (phosphoacceptor) domain" dbname="SMART">
+	    <location start="61" end="126" score="1.5e-19" status="T" evidence="HMMSmart"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR005467" name="Signal transduction histidine kinase, core" type="Domain">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR006290"/>
+	    <rel_ref ipr_ref="IPR008358"/>
+	    <rel_ref ipr_ref="IPR012129"/>
+	    <rel_ref ipr_ref="IPR014265"/>
+	    <rel_ref ipr_ref="IPR014285"/>
+	    <rel_ref ipr_ref="IPR014302"/>
+	    <rel_ref ipr_ref="IPR014310"/>
+	    <rel_ref ipr_ref="IPR014409"/>
+	    <rel_ref ipr_ref="IPR014525"/>
+	    <rel_ref ipr_ref="IPR016380"/>
+	    <rel_ref ipr_ref="IPR016381"/>
+	    <rel_ref ipr_ref="IPR017055"/>
+	    <rel_ref ipr_ref="IPR017116"/>
+	    <rel_ref ipr_ref="IPR017171"/>
+	    <rel_ref ipr_ref="IPR017181"/>
+	    <rel_ref ipr_ref="IPR017202"/>
+	    <rel_ref ipr_ref="IPR017203"/>
+	    <rel_ref ipr_ref="IPR017204"/>
+	    <rel_ref ipr_ref="IPR017205"/>
+	    <rel_ref ipr_ref="IPR017232"/>
+	    <rel_ref ipr_ref="IPR022510"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR003594"/>
+	    <rel_ref ipr_ref="IPR003661"/>
+	    <rel_ref ipr_ref="IPR004358"/>
+	    <rel_ref ipr_ref="IPR011495"/>
+	    <rel_ref ipr_ref="IPR011712"/>
+	    <rel_ref ipr_ref="IPR016120"/>
+	  </contains>
+	  <match id="PS50109" name="HIS_KIN" dbname="PROFILE">
+	    <location start="68" end="235" score="29.840" status="T" evidence="ProfileScan"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR009082" name="Signal transduction histidine kinase, homodimeric domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR003661"/>
+	    <rel_ref ipr_ref="IPR004105"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR022510"/>
+	 </found_in>
+	  <classification id="GO:0004871" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>signal transducer activity</description>
+	  </classification>
+	  <classification id="GO:0007165" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>signal transduction</description>
+	  </classification>
+	  <match id="G3DSA:1.10.287.130" name="no description" dbname="GENE3D">
+	    <location start="56" end="111" score="2e-14" status="T" evidence="Gene3D"/>
+	  </match>
+	  <match id="SSF47384" name="Homodimeric domain of signal transducing histidine kinase" dbname="SUPERFAMILY">
+	    <location start="43" end="128" score="1.3e-18" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="coil" name="coiled-coil" dbname="COIL">
+	    <location start="34" end="55" score="NA" status="?" evidence="Coil"/>
+	  </match>
+	  <match id="PTHR24423" name="TWO COMPONENT SIGNAL TRANSDUCTION PROTEIN-RELATED" dbname="PANTHER">
+	    <location start="21" end="227" score="1.8e-41" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="10" end="27" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="SignalP-NN(euk)" name="signal-peptide" dbname="SIGNALP">
+	    <location start="1" end="31" score="NA" status="?" evidence="SignalPHMM"/>
+	  </match>
+	  <match id="tmhmm" name="transmembrane_regions" dbname="TMHMM">
+	    <location start="9" end="27" score="NA" status="?" evidence="TMHMM"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>

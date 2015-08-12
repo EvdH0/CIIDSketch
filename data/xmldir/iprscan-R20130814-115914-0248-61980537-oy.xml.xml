@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EBIInterProScanResults xmlns="http://www.ebi.ac.uk/Tools/common/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/InterProScanResult.xsd">
+	<Header>
+		<program name="InterProScan" version="4.8" citation="PMID:11590104"/>
+		<parameters>
+			<sequences total="1"/>
+			<databases total="16">
+				<database number="1" name="PRODOM" type="sequences"/>
+				<database number="2" name="COIL" type="matrix"/>
+				<database number="3" name="PRINTS" type="matrix"/>
+				<database number="4" name="GENE3D" type="model"/>
+				<database number="5" name="HAMAP" type="strings"/>
+				<database number="6" name="PANTHER" type="model"/>
+				<database number="7" name="PFAM" type="model"/>
+				<database number="8" name="PIR" type="model"/>
+				<database number="9" name="SMART" type="model"/>
+				<database number="10" name="TIGRFAMs" type="model"/>
+				<database number="11" name="PROSITE" type="strings"/>
+				<database number="12" name="PROFILE" type="strings"/>
+				<database number="13" name="SEG" type="NA"/>
+				<database number="14" name="SIGNALP" type="model"/>
+				<database number="15" name="SUPERFAMILY" type="model"/>
+				<database number="16" name="TMHMM" type="model"/>
+			</databases>
+		</parameters>
+	</Header>
+<interpro_matches>
+
+   <protein id="Consensus_149_6" length="352" crc64="AAF3A78765A5AAE9">
+	<interpro id="IPR008146" name="Glutamine synthetase, catalytic domain" type="Domain" parent_id="IPR014746">
+	  <found_in>
+	    <rel_ref ipr_ref="IPR004809"/>
+	    <rel_ref ipr_ref="IPR017536"/>
+	 </found_in>
+	  <classification id="GO:0004356" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>glutamate-ammonia ligase activity</description>
+	  </classification>
+	  <classification id="GO:0006807" class_type="GO">
+	    <category>Biological Process</category>
+	    <description>nitrogen compound metabolic process</description>
+	  </classification>
+	  <match id="PF00120" name="Gln-synt_C" dbname="PFAM">
+	    <location start="208" end="349" score="2.7e-32" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR014746" name="Glutamine synthetase/guanido kinase, catalytic domain" type="Domain">
+	  <child_list>
+	    <rel_ref ipr_ref="IPR008146"/>
+	    <rel_ref ipr_ref="IPR022414"/>
+	  </child_list>
+	  <found_in>
+	    <rel_ref ipr_ref="IPR000749"/>
+	    <rel_ref ipr_ref="IPR004809"/>
+	    <rel_ref ipr_ref="IPR017536"/>
+	 </found_in>
+	  <contains>
+	    <rel_ref ipr_ref="IPR001637"/>
+	    <rel_ref ipr_ref="IPR022415"/>
+	  </contains>
+	  <classification id="GO:0003824" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>catalytic activity</description>
+	  </classification>
+	  <match id="G3DSA:3.30.590.10" name="no description" dbname="GENE3D">
+	    <location start="195" end="350" score="9.1e-50" status="T" evidence="Gene3D"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR022147" name="Glutamine synthetase type III N-terminal" type="Domain">
+	  <classification id="GO:0004356" class_type="GO">
+	    <category>Molecular Function</category>
+	    <description>glutamate-ammonia ligase activity</description>
+	  </classification>
+	  <match id="PF12437" name="GSIII_N" dbname="PFAM">
+	    <location start="26" end="186" score="8.1e-77" status="T" evidence="HMMPfam"/>
+	  </match>
+	</interpro>
+	<interpro id="IPR027303" name="Glutamine synthetase, glycine-rich site" type="Conserved_site">
+	  <match id="PS00181" name="GLNA_ATP" dbname="PROSITE">
+	    <location start="331" end="346" score="NA" status="T" evidence="PatternScan"/>
+	  </match>
+	</interpro>
+	<interpro id="noIPR" name="unintegrated" type="unintegrated">
+	  <match id="PTHR20852" name="GLUTAMINE SYNTHETASE" dbname="PANTHER">
+	    <location start="113" end="352" score="3.3e-194" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="PTHR20852:SF1" name="GB DEF: PUTATIVE GLUTAMINE SYNTHETASE (FRAGMENT)" dbname="PANTHER">
+	    <location start="113" end="352" score="3.3e-194" status="T" evidence="HMMPanther"/>
+	  </match>
+	  <match id="seg" name="seg" dbname="SEG">
+	    <location start="184" end="197" score="NA" status="?" evidence="Seg"/>
+	  </match>
+	  <match id="SSF55931" name="Glutamine synthetase/guanido kinase" dbname="SUPERFAMILY">
+	    <location start="176" end="352" score="5.7e-44" status="T" evidence="superfamily"/>
+	  </match>
+	</interpro>
+   </protein>
+
+</interpro_matches>
+</EBIInterProScanResults>
