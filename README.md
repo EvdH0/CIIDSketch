@@ -5,3 +5,5 @@ The currenct data folder contains a set of FASTA and XML files to play around wi
 
 
 Eric van der Helm, 2013
+
+In case you are interested in annotation functional metagenomics data (including InterPro) check it out here http://www.dnacoil.com/publications/defume-webserver-paper-published-last-week/ 
